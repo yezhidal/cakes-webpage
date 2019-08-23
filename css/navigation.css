@@ -1,11 +1,18 @@
-.navigation__menu--header {
-    display: none;
-    flex-direction: column;
+.navigation {
 }
-.header .navigation-menu__item {
+
+.navigation--header {
+    display: none;
+}
+
+.navigation__item {
+}
+
+.navigation__item--header {
     display: flex;
     justify-content: center;
     align-items: center;
+
     height: 40px;
     width: 100vw;
 
@@ -16,16 +23,11 @@
     font-size: 12px;
     text-transform: uppercase;
 }
-.header .navigation-menu__item:last-of-type {
-    border-bottom: none;
-}
 
-
-.footer .navigation-menu {
-}
-.footer .navigation-menu__item {
+.navigation__item--footer {
     margin-bottom: 20px;
+
+    color: rgb(225, 225, 225);
     font-family: "Roboto";
     font-size: 14px;
 }
-
