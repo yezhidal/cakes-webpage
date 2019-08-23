@@ -1,7 +1,3 @@
-@import "title.css" screen;
-@import "cake-box.css" screen;
-
-
 .cakes-section {
     display: flex;
     flex-direction: column;

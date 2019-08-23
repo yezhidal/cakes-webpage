@@ -1,6 +1,3 @@
-@import "logo.css" screen;
-@import "navigation.css" screen;
-
 .header {
     display: flex;
     justify-content: space-between;

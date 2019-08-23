@@ -1,8 +1,3 @@
-@import "title.css" screen;
-@import "subtitle.css" screen;
-@import "button.css" screen;
-@import "infobox.css" screen;
-
 .main-section {
     display: flex;
     flex-direction: column;
