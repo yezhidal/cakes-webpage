@@ -1,0 +1,12 @@
+.infobox {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.infobox__text {
+    margin-left: 10px;
+
+    font-family: "PT Sans Caption";
+    font-size: 14px;
+    color: rgb(45, 40, 41);
+}

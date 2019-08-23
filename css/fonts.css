@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Playfair Display", serif;
+    src: url("https://fonts.googleapis.com/css?family=Playfair+Display$display=swap");
+}
+@font-face {
+    font-family: 'Dancing Script', cursive;
+    src: url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+}
+@font-face {
+    font-family: 'PT Sans Caption', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=PT+Sans+Caption&display=swap');
+}
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+}

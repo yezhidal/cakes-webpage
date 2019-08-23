@@ -1,0 +1,21 @@
+@import "reset.css" screen;
+@import "fonts.css" screen;
+@import "header.css" screen;
+@import "main-section.css" screen;
+@import "cakes-section.css" screen;
+@import "footer.css" screen;
+
+
+body {
+    background: url("../img/cake.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(251, 235, 234);
+}
+
+hr {
+    width: 100%;
+    color: rgb(173, 173, 173);
+    background-color: rgb(173, 173, 173);
+    height: 1px;
+}

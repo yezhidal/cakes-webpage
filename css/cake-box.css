@@ -1,0 +1,25 @@
+.cake-box {
+    display: block;
+
+    box-sizing: border-box;
+    height: 120px;
+
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.cake-box__type {
+    font-family: "PT Sans Caption";
+    font-size: 14px;
+    color: rgb(73, 69, 70);
+}
+
+.cake-box__amount {
+    font-family: "PT Sans Caption";
+    font-size: 12px;
+    color: rgb(108, 104, 105);
+}
+
+.cake-box__image {
+}

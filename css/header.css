@@ -1,0 +1,27 @@
+@import "logo.css" screen;
+@import "navigation.css" screen;
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    box-sizing: border-box;
+    width: 100vw;
+    height: 40px;
+
+    padding: 0 20px;
+
+    background-color: rgb(255, 255, 255);
+}
+
+.header__logo-container {
+    height: 1em;
+}
+.header__navigation-trigger-container {
+}
+
