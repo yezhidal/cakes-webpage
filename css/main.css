@@ -1,20 +1,3 @@
-@import "reset.css" screen;
-@import "fonts.css" screen;
-@import "header.css" screen;
-@import "main-section.css" screen;
-@import "cakes-section.css" screen;
-@import "footer.css" screen;
-@import "cake-box.css" screen;
-@import "button.css" screen;
-@import "copyright.css" screen;
-@import "infobox.css" screen;
-@import "logo.css" screen;
-@import "navigation.css" screen;
-@import "social-medium.css" screen;
-@import "subtitle.css" screen;
-@import "title.css" screen;
-
-
 body {
     background: url("../img/cake.png");
     background-repeat: no-repeat;
