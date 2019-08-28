@@ -1,0 +1,14 @@
+.delivery-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding: 0 20px 145px 20px;
+
+    background-color: rgb(227, 53, 61);
+    background-image: url("../img/delivery.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 170%;
+}
