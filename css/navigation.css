@@ -1,11 +1,18 @@
-.navigation {
+.navigation__button {
+    background-image: url("../img/menu.png");
+    height: 15px;
+    width: 18px;
+}
+.navigation__button:focus + .navigation--dropdown {
+    display: block;
 }
 
 .navigation--dropdown{
     display: none;
-}
 
-.navigation__item {
+    position: fixed;
+    left: 0;
+    top: 40px;
 }
 
 .navigation__item--button {
