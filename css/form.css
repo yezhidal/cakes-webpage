@@ -1,0 +1,27 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__button-container {
+    width: 180px;
+}
+
+.form__field {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.form__field--textarea {
+    height: 120px;
+}
+
+.form__field::placeholder {
+    font-family: "PT Sans Caption";
+    font-size: 14px;
+    color: rgb(204, 204, 204);
+}
