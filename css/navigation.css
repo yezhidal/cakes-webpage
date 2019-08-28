@@ -1,14 +1,14 @@
 .navigation {
 }
 
-.navigation--header {
+.navigation--dropdown{
     display: none;
 }
 
 .navigation__item {
 }
 
-.navigation__item--header {
+.navigation__item--button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +24,7 @@
     text-transform: uppercase;
 }
 
-.navigation__item--footer {
+.navigation__item--regular {
     margin-bottom: 20px;
 
     color: rgb(225, 225, 225);
