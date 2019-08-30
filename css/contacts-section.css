@@ -2,7 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 20px;
+    padding: 0 20px;
+}
+
+.contacts-section__title-container {
+    margin-top: 30px;
 }
 
 .contacts-section__form-container {
