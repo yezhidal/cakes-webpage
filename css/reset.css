@@ -43,6 +43,7 @@ q:before, q:after {
 	content: none;
 }
 a {
+	color: unset;
 	text-decoration: none;
 }
 a:visited {

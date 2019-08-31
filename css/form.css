@@ -21,7 +21,7 @@
 }
 
 .form__field::placeholder {
-    font-family: "PT Sans Caption";
+    font-family: "PT Sans Caption", sans-serif;
     font-size: 14px;
     color: rgb(204, 204, 204);
 }
