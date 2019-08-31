@@ -4,10 +4,21 @@
     align-items: center;
 }
 
-.contacts-section__title-container {
-    margin-top: 30px;
+.contacts-section__title {
+    margin-bottom: 10px;
+}
+
+.contacts-section__subtitle {
+    align-self: flex-start;
+    margin-bottom: 10px;
 }
 
 .contacts-section__form-container {
     width: 100%;
+    margin-bottom: 25px;
+}
+
+.contacts-section > p {
+    align-self: flex-start;
+    margin-bottom: 15px;
 }

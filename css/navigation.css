@@ -25,17 +25,21 @@
     width: 100vw;
 
     background-color: rgb(231, 231, 231);
-    border-bottom: 1px solid rgb(222, 222, 222);
+    border-bottom: 2px solid rgb(222, 222, 222);
 
-    font-family: "PT Sans Caption";
+    color: rgb(56, 56, 56);
+    font-family: "PT Sans Caption", sans-serif;
     font-size: 12px;
     text-transform: uppercase;
+}
+.navigation__item--dropdown:last-of-type {
+    border: none;
 }
 
 .navigation__item--regular {
     margin-bottom: 20px;
 
     color: rgb(225, 225, 225);
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-size: 14px;
 }
