@@ -4,16 +4,11 @@
     height: 15px;
     width: 18px;
 }
-.navigation__button:focus + .navigation--dropdown {
+.navigation__button:focus .navigation--dropdown {
     display: block;
 }
-
-.navigation--dropdown{
+.navigation--dropdown {
     display: none;
-
-    position: fixed;
-    left: 0;
-    top: 40px;
 }
 
 .navigation__item--dropdown {
@@ -37,9 +32,6 @@
 }
 
 .navigation__item--regular {
-    margin-bottom: 20px;
-
-    color: rgb(225, 225, 225);
     font-family: "Roboto", sans-serif;
     font-size: 14px;
 }

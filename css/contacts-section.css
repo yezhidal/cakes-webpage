@@ -19,6 +19,9 @@
     width: 100%;
     margin-bottom: 25px;
 }
+.contacts-section__form-container .form__field {
+    margin-bottom: 10px;
+}
 
 .contacts-section > p {
     align-self: flex-start;
@@ -29,9 +32,9 @@
     display: flex;
     align-self: flex-start;
 }
-.contacts-section__social-media-container > .social-medium {
+.contacts-section__social-media-container > .social-medium{
     margin-right: 30px;
 }
-.contacts-section__social-media-container:last-child{
+.contacts-section__social-media-container > .social-medium:last-child {
     margin-right: 0;
 }

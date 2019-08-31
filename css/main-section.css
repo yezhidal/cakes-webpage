@@ -21,10 +21,13 @@
 }
 
 .main-section__infobox-container {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
-.main-section__infobox-container > .infobox {
+.main-section__infobox-container > .infobx {
     margin-bottom: 10px;
+}
+.main-section__infobox-container > .info-box:last-child {
+    margin-bottom: 0;
 }
 
 .main-section__button-container {

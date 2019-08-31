@@ -1,4 +1,5 @@
 .cakes-section {
+    padding-bottom: 20px;
 }
 
 .cakes-section__title {
@@ -7,4 +8,12 @@
 
 .cakes-section__cake-boxes-container {
     width: 100%;
+}
+
+.cakes-section__cake-boxes-container > .cake-box {
+    margin-bottom: 10px;
+}
+
+.cakes-section__cake-boxes-container > .cake-box:last-child {
+    margin-bottom: 0;
 }
