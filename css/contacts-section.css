@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    padding-bottom: 50px;
 }
 
 .contacts-section__title {
@@ -21,4 +23,15 @@
 .contacts-section > p {
     align-self: flex-start;
     margin-bottom: 15px;
+}
+
+.contacts-section__social-media-container {
+    display: flex;
+    align-self: flex-start;
+}
+.contacts-section__social-media-container > .social-medium {
+    margin-right: 30px;
+}
+.contacts-section__social-media-container:last-child{
+    margin-right: 0;
 }

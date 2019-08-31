@@ -7,8 +7,12 @@
     margin-bottom: 30px;
 }
 
-.footer__social-nets-container {
+.footer__social-media-container {
+    display: flex;
     margin: 30px 0;
+}
+.footer__social-media-container > .social-medium {
+    margin-right: 15px;
 }
 
 .footer__copyright {
