@@ -1,28 +1,32 @@
 .main-section {
-    display: flex;
-    flex-direction: column;
     justify-content: flex-end;
-    align-items: center;
 
-    margin-bottom: 50px;
-    padding: 0 20px;
-    height: 500px;
+    padding-top: 170px;
+
+    background-image: url("../img/cake.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
-.main-section__title-container {
-    width: 180px;
-    margin-bottom: 20px;
+.main-section__title {
+    width: 170px;
+    margin-bottom: 25px;
 
+    font-size: 40px;
     text-align: center;
     line-height: 35px;
 }
 
-.main-section__subtitle-container {
-    margin-bottom: 15px;
+.main-section__subtitle {
+    margin-bottom: 30px;
+    font-size: 22px;
 }
 
 .main-section__infobox-container {
     margin-bottom: 30px;
+}
+.main-section__infobox-container > .infobox {
+    margin-bottom: 10px;
 }
 
 .main-section__button-container {

@@ -1,6 +1,5 @@
 .infobox {
     display: flex;
-    margin-bottom: 10px;
 }
 
 .infobox__content {
@@ -10,12 +9,18 @@
 .infobox__title {
     margin-bottom: 5px;
 
-    font-family: "PT Sans Caption";
+    font-family: "PT Sans Caption", sans-serif;
     font-weight: bold;
     font-size: 14px;
 }
 
 .infobox__text {
-    font-family: "PT Sans Caption";
+    font-family: "PT Sans Caption", sans-serif;
     font-size: 14px;
+}
+
+.infobox__icon--text {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 30px;
 }
