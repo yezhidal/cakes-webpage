@@ -45,6 +45,9 @@ q:before, q:after {
 a {
 	text-decoration: none;
 }
+a:visited {
+	color: unset;
+}
 button:focus, input:focus, textarea:focus {
 	outline: none;
 }
