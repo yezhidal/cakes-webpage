@@ -16,6 +16,12 @@
 }
 
 .delivery-section__infobox-container {
+    list-style: decimal;
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 14px;
+}
+
+.delivery-section__infobox-container {
     margin: 0 10px;
 }
 .delivery-section__infobox-container > .infobox {
