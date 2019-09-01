@@ -16,16 +16,19 @@
 }
 
 .delivery-section__infobox-container {
-    list-style: decimal;
-    font-family: "PT Sans Caption", sans-serif;
-    font-size: 14px;
-}
-
-.delivery-section__infobox-container {
-    margin: 0 10px;
+    counter-reset: step-counter;
+    margin: 0 15px;
 }
 .delivery-section__infobox-container > .infobox {
+    counter-increment: step-counter;
+    display: flex;
     margin-bottom: 20px;
+}
+.delivery-section__infobox-container > .infobox::before {
+    content: counter(step-counter);
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 35px;
 }
 .delivery-section__infobox-container > .infobox:last-child {
     margin-bottom: 0px;
