@@ -20,13 +20,13 @@
     font-size: 22px;
 }
 
-.main-section__infobox-container {
+.main-section__infobox-list-container {
     margin-bottom: 40px;
 }
-.main-section__infobox-container > .infobox {
+.main-section__infobox-container {
     margin-bottom: 10px;
 }
-.main-section__infobox-container > .infobox:last-child {
+.main-section__infobox-container:last-of-type {
     margin-bottom: 0;
 }
 

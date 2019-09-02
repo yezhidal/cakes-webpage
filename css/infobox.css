@@ -2,20 +2,14 @@
     display: flex;
 }
 
-.infobox__content {
-    margin-left: 10px;
-}
-
-.infobox__title {
+/* .infobox__title {
     margin-bottom: 5px;
 
     font-family: "PT Sans Caption", sans-serif;
     font-weight: bold;
     font-size: 14px;
-}
+} */
 
-.infobox__icon--text {
-    font-family: "Playfair Display", serif;
-    font-weight: bold;
-    font-size: 30px;
+.infobox__text {
+    margin-left: 10px;
 }
