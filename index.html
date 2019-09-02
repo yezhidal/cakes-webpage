@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="css/cakebox.css">
   <link rel="stylesheet" href="css/button.css">
   <link rel="stylesheet" href="css/infobox.css">
+  <link rel="stylesheet" href="css/step.css">
   <link rel="stylesheet" href="css/logo.css">
   <link rel="stylesheet" href="css/navigation.css">
   <link rel="stylesheet" href="css/social-medium.css">
@@ -33,35 +34,33 @@
 
     <div class="header__navigation-container">
       <button class="navigation__button">
-        <div class="header__dropdown-container">
-          <nav class="navigation navigation--dropdown">
-            <ul>
-              <li class="navigation__item navigation__item--dropdown">
-                <a href="#cakes-section-anchor">Наши торты</a>
-              </li>
+      <nav class="navigation navigation--dropdown">
+        <ul>
+          <li class="navigation__item navigation__item--dropdown">
+            <a href="#cakes-section-anchor">Наши торты</a>
+          </li>
 
-              <li class="navigation__item navigation__item--dropdown">
-                <a href="#personal-order-section-anchor">Индивидуальный заказ</a>
-              </li>
+          <li class="navigation__item navigation__item--dropdown">
+            <a href="#personal-order-section-anchor">Индивидуальный заказ</a>
+          </li>
 
-              <li class="navigation__item navigation__item--dropdown">
-                <a href="#comments-section-anchor">Отзывы</a>
-              </li>
+          <li class="navigation__item navigation__item--dropdown">
+            <a href="#comments-section-anchor">Отзывы</a>
+          </li>
 
-              <li class="navigation__item navigation__item--dropdown">
-                <a href="#about-section-anchor">О нас</a>
-              </li>
+          <li class="navigation__item navigation__item--dropdown">
+            <a href="#about-section-anchor">О нас</a>
+          </li>
 
-              <li class="navigation__item navigation__item--dropdown">
-                <a href="#delivery-section-anchor">Как заказать</a>
-              </li>
+          <li class="navigation__item navigation__item--dropdown">
+            <a href="#delivery-section-anchor">Как заказать</a>
+          </li>
 
-              <li class="navigation__item navigation__item--dropdown">
-                <a href="#contacts-section-anchor">Контакты</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
+          <li class="navigation__item navigation__item--dropdown">
+            <a href="#contacts-section-anchor">Контакты</a>
+          </li>
+        </ul>
+      </nav>
       </button>
     </div>
   </header>
@@ -155,28 +154,30 @@
   <section id="delivery-section-anchor" class="base-section delivery-section">
     <h2 class="base-section__title delivery-section__title">Как заказать</h2>
 
-    <ol class="delivery-section__infobox-container">
-      <li class="infobox">
-        <div class="infobox__content">
-          <p class="infobox__title">Срок заказа</p>
-          <p class="infobox__text">Размещать заказы желательно за 2-3 дня. На выходные заказы лучше размещать минимум за неделю.</p>
-        </div>
-      </li>
+    <div class="delivery-section__step-list-container">
+      <ol class="delivery-section__step-list">
+        <li class="delivery-section__step-container">
+          <div class="step">
+            <p class="step__name">Срок заказа</p>
+            <p class="step__text">Размещать заказы желательно за 2-3 дня. На выходные заказы лучше размещать минимум за неделю.</p>
+          </div>
+        </li>
 
-      <li class="infobox">
-        <div class="infobox__content">
-          <p class="infobox__title">Доставка по городу</p>
-          <p class="infobox__text">Доставка в пределах города: 200 рублей, при заказе на сумму более 2000 доставка бесплатно.</p>
-        </div>
-      </li>
+        <li class="delivery-section__step-container">
+          <div class="step">
+            <p class="step__name">Доставка по городу</p>
+            <p class="step__text">Доставка в пределах города: 200 рублей, при заказе на сумму более 2000 доставка бесплатно.</p>
+          </div>
+        </li>
 
-      <li class="infobox">
-        <div class="infobox__content">
-          <p class="infobox__title">Доставка за городом</p>
-          <p class="infobox__text">Доставка за пределами города рассчитывается индивидульно.</p>
-        </div>
-      </li>
-    </ol>
+        <li class="delivery-section__step-container">
+          <div class="step">
+            <p class="step__name">Доставка за городом</p>
+            <p class="step__text">Доставка за пределами города рассчитывается индивидульно.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
   </section>
 
   <!-- ===================== CONTACTS SECTION ===================== -->

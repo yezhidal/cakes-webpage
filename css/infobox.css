@@ -2,14 +2,6 @@
     display: flex;
 }
 
-/* .infobox__title {
-    margin-bottom: 5px;
-
-    font-family: "PT Sans Caption", sans-serif;
-    font-weight: bold;
-    font-size: 14px;
-} */
-
 .infobox__text {
     margin-left: 10px;
 }

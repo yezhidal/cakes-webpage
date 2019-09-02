@@ -15,21 +15,27 @@
     color: rgb(255, 255, 255);
 }
 
-.delivery-section__infobox-container {
-    counter-reset: step-counter;
+.deliver-section__step-list-container {
     margin: 0 15px;
 }
-.delivery-section__infobox-container > .infobox {
-    counter-increment: step-counter;
-    display: flex;
-    margin-bottom: 20px;
+
+.delivery-section__step-list {
+    counter-reset: step-counter;
 }
-.delivery-section__infobox-container > .infobox::before {
+
+.delivery-section__step-container::before {
+    margin-right: 10px;
     content: counter(step-counter);
     font-family: "Playfair Display", serif;
     font-weight: bold;
     font-size: 35px;
 }
-.delivery-section__infobox-container > .infobox:last-child {
+
+.delivery-section__step-container {
+    counter-increment: step-counter;
+    display: flex;
+    margin-bottom: 20px;
+}
+.delivery-section__step-container:last-of-type {
     margin-bottom: 0px;
 }

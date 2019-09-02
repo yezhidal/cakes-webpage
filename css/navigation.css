@@ -4,11 +4,16 @@
     height: 15px;
     width: 18px;
 }
-.navigation__button:focus .navigation--dropdown {
+
+.navigation__button:focus > .navigation--dropdown,
+.navigation--dropdown:hover {
     display: block;
 }
 .navigation--dropdown {
     display: none;
+    position: fixed;
+    left: 0;
+    top: 40px;
 }
 
 .navigation__item--dropdown {
