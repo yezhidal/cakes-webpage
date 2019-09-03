@@ -5,7 +5,7 @@
     width: 18px;
 }
 
-.navigation__button:focus > .navigation--dropdown,
+.navigation__button:focus + .navigation--dropdown,
 .navigation--dropdown:hover {
     display: block;
 }
@@ -15,8 +15,7 @@
     left: 0;
     top: 40px;
 }
-
-.navigation__item--dropdown {
+.navigation--dropdown .navigation__item {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,11 +31,11 @@
     font-size: 12px;
     text-transform: uppercase;
 }
-.navigation__item--dropdown:last-of-type {
+.navigation--dropdown .navigation__item:last-of-type {
     border: none;
 }
 
-.navigation__item--regular {
+.navigation__item {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
 }
