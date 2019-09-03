@@ -32,13 +32,7 @@
 .contacts-section__contact-container {
     margin-bottom: 15px;
 }
-/* .contacts-section__social-media-container {
-    display: flex;
-    align-self: flex-start;
+
+.contacts-section__social-media-container {
+    margin-top: 10px;
 }
-.contacts-section__social-media-container > .social-medium{
-    margin-right: 30px;
-}
-.contacts-section__social-media-container > .social-medium:last-child {
-    margin-right: 0;
-} */
