@@ -2,14 +2,14 @@
     display: flex;
 }
 
-.social-medium {
+.social-media__item {
     margin-right: 15px;
 }
-.social-medium:last-of-type {
+.social-media__item:last-of-type {
     margin-right: 0;
 }
 
-.social-media--round-button .social-medium {
+.social-media--round-button .social-media__item {
     height: 60px;
     width: 60px;
     background-color: rgb(255, 255, 255);
