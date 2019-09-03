@@ -20,9 +20,9 @@
     margin-bottom: 25px;
 }
 
-.contacts-section__form-title {
+.contacts-section__contacts-list-container {
     align-self: flex-start;
-    margin-bottom: 10px;
+    width: 100%;
 }
 
 .contacts-section__contacts-list {

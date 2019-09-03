@@ -8,6 +8,11 @@
     width: 180px;
 }
 
+.form__title {
+    align-self: flex-start;
+    margin-bottom: 10px;
+}
+
 .form__field {
     box-sizing: border-box;
     width: 100%;
