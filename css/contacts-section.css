@@ -19,16 +19,20 @@
     width: 100%;
     margin-bottom: 25px;
 }
-.contacts-section__form-container .form__field {
+
+.contacts-section__form-title {
+    align-self: flex-start;
     margin-bottom: 10px;
 }
 
-.contacts-section > p {
-    align-self: flex-start;
-    margin-bottom: 15px;
+.contacts-section__contacts-list {
+    width: 100%;
 }
 
-.contacts-section__social-media-container {
+.contacts-section__contact-container {
+    margin-bottom: 15px;
+}
+/* .contacts-section__social-media-container {
     display: flex;
     align-self: flex-start;
 }
@@ -37,4 +41,4 @@
 }
 .contacts-section__social-media-container > .social-medium:last-child {
     margin-right: 0;
-}
+} */
