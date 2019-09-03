@@ -12,6 +12,10 @@
 }
 
 .cakebox__type {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+
     font-family: "PT Sans Caption", sans-serif;
     font-size: 14px;
     color: rgb(73, 69, 70);
