@@ -17,10 +17,6 @@
 }
 .navigation--dropdown .navigation__item {
     display: flex;
-    justify-content: center;
-    align-items: center;
-
-    height: 40px;
     width: 100vw;
 
     background-color: rgb(231, 231, 231);
@@ -33,6 +29,12 @@
 }
 .navigation--dropdown .navigation__item:last-of-type {
     border: none;
+}
+
+.navigation__link {
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
 }
 
 .navigation__item {
