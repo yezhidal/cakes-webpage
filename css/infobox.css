@@ -1,5 +1,12 @@
 .infobox {
+}
+
+.infobox__item {
     display: flex;
+    margin-bottom: 10px;
+}
+.infobox__item:last-of-type {
+    margin-bottom: 0;
 }
 
 .infobox__text {
