@@ -25,3 +25,29 @@
         font-size: 12px;
     }
 }
+
+@media only screen and (min-width: 1366px) {
+    .footer {
+        flex-direction: row;
+    }
+
+    .footer__logo-container {
+        margin-bottom: 30px;
+    }
+
+    .footer__navigation-container .navigation__item {
+        margin-bottom: 20px;
+    }
+
+    .footer__social-media-container {
+        margin: 30px 0;
+    }
+
+    .footer__copyright {
+        margin-top: 10px;
+
+        color: rgb(173, 173, 173);
+        font-family: "Roboto", sans-serif;
+        font-size: 12px;
+    }
+}

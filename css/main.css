@@ -1,5 +1,7 @@
 @media only screen and (max-width: 768px) {
     body {
+        background-size: 130%;
+        background-position: center -170px;
         min-width: 320px;
     }
 
@@ -9,4 +11,16 @@
         background-color: rgb(173, 173, 173);
         height: 1px;
     }
+}
+
+@media only screen and (min-width: 1366px) {
+    body {
+        background-position: top 90px right -200px;
+    }
+}
+
+body {
+    background-color: rgb(251, 235, 234);
+    background-image: url("../img/cake.png");
+    background-repeat: no-repeat;
 }

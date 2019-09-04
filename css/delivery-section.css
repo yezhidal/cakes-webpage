@@ -6,9 +6,6 @@
         color: rgb(255, 255, 255);
 
         background-color: rgb(227, 53, 61);
-        background-image: url("../img/delivery.png");
-        background-repeat: no-repeat;
-        /* background-size: 100%; */
         background-position: center 320px;
     }
 
@@ -20,4 +17,31 @@
     .delivery-section__steps-container {
         margin: 0 20px;
     }
+}
+
+@media only screen and (min-width: 1366px) {
+    .delivery-section {
+        padding-top: 130px;
+        padding-bottom: 180px;
+        color: rgb(255, 255, 255);
+        background-position: bottom left;
+    }
+
+    .delivery-section__title {
+        margin-bottom: 30px;
+        color: rgb(255, 255, 255);
+    }
+
+    .delivery-section__steps-container {
+        margin: 0 20px;
+    }
+}
+
+.delivery-section {
+    color: rgb(255, 255, 255);
+
+    background-color: rgb(227, 53, 61);
+    background-image: url("../img/delivery.png");
+    background-repeat: no-repeat;
+    background-position: center 320px;
 }

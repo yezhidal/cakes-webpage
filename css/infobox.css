@@ -3,8 +3,6 @@
     }
 
     .infobox__item {
-        display: flex;
-        padding-right: 20px;
         margin-bottom: 15px;
     }
     .infobox__item:last-of-type {
@@ -13,7 +11,32 @@
 
     .infobox__text {
         margin-left: 10px;
-        font-size: 14px;
         line-height: 17px;
     }
+}
+
+@media only screen and (min-width: 768px) {
+    .infobox {
+        display: flex;
+    }
+
+    .infobox__item {
+        margin-right: 20px;
+    }
+    .infobox__item:last-of-type {
+        margin-right: 0;
+    }
+
+    .infobox__text {
+        margin-left: 10px;
+        line-height: 17px;
+    }
+}
+
+.infobox__item {
+    display: flex;
+}
+
+.infobox__text {
+    font-size: 14px;
 }

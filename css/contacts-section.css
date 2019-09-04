@@ -1,6 +1,5 @@
 @media only screen and (max-width: 768px) {
     .contacts-section {
-        display: flex;
         flex-direction: column;
         align-items: flex-start;
 
@@ -9,6 +8,33 @@
 
     .contacts-section__title {
         align-self: center;
+        margin-bottom: 10px;
+    }
+
+    .contacts-section__subtitle {
+        margin-bottom: 10px;
+    }
+
+    .contacts-section__form-container {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .contacts-section__list-item {
+        margin-bottom: 25px;
+    }
+
+    .contacts-section__social-media-container {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    .contacts-section__content {
+        display: flex;
+    }
+
+    .contacts-section__title {
         margin-bottom: 10px;
     }
 

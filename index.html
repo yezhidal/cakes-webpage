@@ -30,40 +30,47 @@
 <body>
   <!-- ===================== HEADER ===================== -->
   <header class="header">
-    <div class="header__logo-container">
-      <a href="#main-section-anchor" class="logo logo--dark">Cakes</a>
+    <div class="header__wrapper">
+      <div class="header__logo-container">
+        <a href="#main-section-anchor" class="logo logo--dark">Cakes</a>
+      </div>
+
+      <button class="header__navigation-button"></button>
+      <div class="header__navigation-container">
+        <nav class="navigation navigation--dropdown">
+          <ul class="navigation__menu">
+            <li class="navigation__item">
+              <a class="navigation__link" href="#cakes-section-anchor">Наши торты</a>
+            </li>
+
+            <li class="navigation__item">
+              <a class="navigation__link" href="#personal-order-section-anchor">Индивидуальный заказ</a>
+            </li>
+
+            <li class="navigation__item">
+              <a class="navigation__link" href="#comments-section-anchor">Отзывы</a>
+            </li>
+
+            <li class="navigation__item">
+              <a class="navigation__link" href="#about-section-anchor">О нас</a>
+            </li>
+
+            <li class="navigation__item">
+              <a class="navigation__link" href="#delivery-section-anchor">Как заказать</a>
+            </li>
+
+            <li class="navigation__item">
+              <a class="navigation__link" href="#contacts-section-anchor">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </div>
 
-    <button class="header__navigation-button"></button>
-    <div class="header__navigation-container">
-      <nav class="navigation navigation--dropdown">
-        <ul>
-          <li class="navigation__item">
-            <a class="navigation__link" href="#cakes-section-anchor">Наши торты</a>
-          </li>
-
-          <li class="navigation__item">
-            <a class="navigation__link" href="#personal-order-section-anchor">Индивидуальный заказ</a>
-          </li>
-
-          <li class="navigation__item">
-            <a class="navigation__link" href="#comments-section-anchor">Отзывы</a>
-          </li>
-
-          <li class="navigation__item">
-            <a class="navigation__link" href="#about-section-anchor">О нас</a>
-          </li>
-
-          <li class="navigation__item">
-            <a class="navigation__link" href="#delivery-section-anchor">Как заказать</a>
-          </li>
-
-          <li class="navigation__item">
-            <a class="navigation__link" href="#contacts-section-anchor">Контакты</a>
-          </li>
-        </ul>
-      </nav>
+    <div class="header__phone-container">
+      <a href="tel:7-906-899-9296">+7 906 899 92 96</a>
     </div>
+
   </header>
 
   <!-- ===================== MAIN SECTION ===================== -->
@@ -94,7 +101,7 @@
   <section id="cakes-section-anchor" class="base-section cakes-section">
     <h2 class="base-section__title cakes-section__title">Наши торты</h2>
 
-    <ul class="base-section__list">
+    <!-- <ul class="base-section__list">
       <li class="base-section__list-item">
         <a class="cakebox" href="#">
           <p class="cakebox__type">Классические</p>
@@ -142,6 +149,62 @@
           <img class="cakebox__image" src="img/cakes/kids-cake.png">
         </a>
       </li>
+    </ul> -->
+    <ul>
+      <li>
+        <a class="cakebox--large" href="#">
+          <p class="cakebox__type">Детские</p>
+          <p class="cakebox__amount">18 видов</p>
+          <img class="cakebox__image" src="img/cakes/kids-cake.png">
+        </a>
+      </li>
+
+      <ul>
+        <li>
+          <a class="cakebox" href="#">
+            <p class="cakebox__type">Детские</p>
+            <p class="cakebox__amount">18 видов</p>
+            <img class="cakebox__image" src="img/cakes/kids-cake.png">
+          </a>
+        </li>
+
+        <li>
+          <a class="cakebox" href="#">
+            <p class="cakebox__type">Детские</p>
+            <p class="cakebox__amount">18 видов</p>
+            <img class="cakebox__image" src="img/cakes/kids-cake.png">
+          </a>
+        </li>
+      </ul>
+    </ul>
+
+    <ul>
+      <li>
+        <ul>
+          <li>
+            <a class="cakebox" href="#">
+              <p class="cakebox__type">Детские</p>
+              <p class="cakebox__amount">18 видов</p>
+              <img class="cakebox__image" src="img/cakes/kids-cake.png">
+            </a>
+          </li>
+          <li>
+            <a class="cakebox" href="#">
+              <p class="cakebox__type">Детские</p>
+              <p class="cakebox__amount">18 видов</p>
+              <img class="cakebox__image" src="img/cakes/kids-cake.png">
+            </a>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        <a class="cakebox--large" href="#">
+          <p class="cakebox__type">Детские</p>
+          <p class="cakebox__amount">18 видов</p>
+          <img class="cakebox__image" src="img/cakes/kids-cake.png">
+        </a>
+      </li>
     </ul>
   </section>
 
@@ -180,49 +243,51 @@
     <h2 class="base-section__title contacts-section__title">Контакты</h2>
     <h3 class="base-section__subtitle contacts-section__subtitle">Остались вопросы?</h3>
 
-    <div class="contacts-section__form-container">
-      <form class="form" action="">
-        <p class="form__description">Заполните форму ниже и наш кондитер свяжется с Вами:</p>
-        <input class="form__field" type="text" placeholder="Ваше имя">
-        <input class="form__field" type="email" placeholder="Email адрес">
-        <textarea class="form__field form__field--textarea" type="text" placeholder="Ваш вопрос"></textarea>
-        <div class="form__button-container">
-          <button class="button" type="submit">Отправить</button>
-        </div>
-      </form>
+    <div class="contacts-section__content">
+      <div class="contacts-section__form-container">
+        <form class="form" action="">
+          <p class="form__description">Заполните форму ниже и наш кондитер свяжется с Вами:</p>
+          <input class="form__field" type="text" placeholder="Ваше имя">
+          <input class="form__field" type="email" placeholder="Email адрес">
+          <textarea class="form__field form__field--textarea" type="text" placeholder="Ваш вопрос"></textarea>
+          <div class="form__button-container">
+            <button class="button" type="submit">Отправить</button>
+          </div>
+        </form>
+      </div>
+
+      <ul class="base-section__list">
+        <li class="base-section__list-item contacts-section__list-item">
+          <p>Или позвоните по телефону:<br>
+            <a href="tel:7-906-899-9296">+7 906 899 92 96</a>
+          </p>
+        </li>
+
+        <li class="base-section__list-item contacts-section__list-item">
+          <p>Наша почта: <a href="mailto:bakerybypavel@mail.ru">bakerybypavel@mail.ru</a></p>
+        </li>
+
+        <li class="base-section__list-item contacts-section__list-item">
+          <p>Мы в соцсецях:</p>
+
+          <div class="contacts-section__social-media-container">
+            <ul class="social-media social-media--round-button">
+              <li class="social-media__item">
+                <a href="#">
+                  <img src="img/instagram-icon.svg">
+                </a>
+              </li>
+
+              <li class="social-media__item">
+                <a href="#">
+                  <img src="img/vk-icon.svg">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul
     </div>
-
-    <ul class="base-section__list">
-      <li class="base-section__list-item contacts-section__list-item">
-        <p>Или позвоните по телефону:<br>
-          <a href="tel:7-906-899-9296">+7 906 899 92 96</a>
-        </p>
-      </li>
-
-      <li class="base-section__list-item contacts-section__list-item">
-        <p>Наша почта: <a href="mailto:bakerybypavel@mail.ru">bakerybypavel@mail.ru</a></p>
-      </li>
-
-      <li class="base-section__list-item contacts-section__list-item">
-        <p>Мы в соцсецях:</p>
-
-        <div class="contacts-section__social-media-container">
-          <ul class="social-media social-media--round-button">
-            <li class="social-media__item">
-              <a href="#">
-                <img src="img/instagram-icon.svg">
-              </a>
-            </li>
-
-            <li class="social-media__item">
-              <a href="#">
-                <img src="img/vk-icon.svg">
-              </a>
-            </li>
-          </ul>
-        </div>
-      </li>
-    </ul>
   </section>
 
   <!-- ===================== FOOTER ===================== -->
@@ -233,7 +298,7 @@
 
     <div class="footer__navigation-container">
       <nav class="navigation">
-        <ul>
+        <ul class="navigation__menu">
           <li class="navigation__item">
             <a class="navigation__link" href="#cakes-section-anchor">Наши торты</a>
           </li>

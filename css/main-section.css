@@ -2,10 +2,6 @@
     .main-section {
         justify-content: flex-end;
         padding-top: 170px;
-
-        background-image: url("../img/cake.png");
-        background-repeat: no-repeat;
-        background-size: 100%;
     }
 
     .main-section__title {
@@ -29,5 +25,34 @@
 
     .main-section__button-container {
         width: 225px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .main-section {
+        padding-bottom: 250px;
+    }
+
+    .main-section__title {
+        width: 330px;
+        margin-bottom: 30px;
+        
+        line-height: 60px;
+        font-size: 78.31px;
+    }
+
+    .main-section__subtitle {
+        margin-bottom: 50px;
+        font-size: 40.83px;
+    }
+
+    .main-section__button-container {
+        margin-bottom: 130px;
+        width: 220px;
+        order: 3;
+    }
+
+    .main-section__infobox-container {
+        order: 4;
     }
 }
