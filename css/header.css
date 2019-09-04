@@ -22,3 +22,21 @@
     top: 40px;
     left: 0;
 }
+
+.header__navigation-button {
+    background-color: rgb(255, 255, 255);
+    background-image: url("../img/menu.png");
+    height: 15px;
+    width: 18px;
+}
+
+.header__navigation-button:focus + .header__navigation-container,
+.header__navigation-container:hover {
+    display: block;
+}
+.header__navigation-container {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 40px;
+}
