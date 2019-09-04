@@ -1,36 +1,23 @@
 .contacts-section {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 
     padding-bottom: 50px;
 }
 
 .contacts-section__title {
+    align-self: center;
     margin-bottom: 10px;
 }
 
 .contacts-section__subtitle {
-    align-self: flex-start;
     margin-bottom: 10px;
 }
 
 .contacts-section__form-container {
     width: 100%;
     margin-bottom: 25px;
-}
-
-.contacts-section__contacts-list-container {
-    align-self: flex-start;
-    width: 100%;
-}
-
-.contacts-section__contacts-list {
-    width: 100%;
-}
-
-.contacts-section__contact-container {
-    margin-bottom: 15px;
 }
 
 .contacts-section__social-media-container {

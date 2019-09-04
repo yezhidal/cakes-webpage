@@ -23,3 +23,15 @@
     font-size: 22px;
     color: rgb(50, 49, 61);
 }
+
+.base-section__list {
+    width: 100%;
+}
+
+.base-section__list-item {
+    margin-bottom: 10px;
+}
+
+.base-section__list-item:last-of-type {
+    margin-bottom: 0;
+}

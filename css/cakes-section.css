@@ -5,15 +5,3 @@
 .cakes-section__title {
     margin-bottom: 35px;
 }
-
-.cakes-section__cakebox-list-container {
-    width: 100%;
-}
-
-.cakes-section__cakebox-container {
-    margin-bottom: 10px;
-}
-
-.cakes-section__cakebox-container:last-of-type {
-    margin-bottom: 0;
-}
