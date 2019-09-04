@@ -1,6 +1,5 @@
 .main-section {
     justify-content: flex-end;
-
     padding-top: 170px;
 
     background-image: url("../img/cake.png");
@@ -9,15 +8,18 @@
 }
 
 .main-section__title {
-    margin-bottom: 25px;
+    width: 190px;
+    margin-bottom: 20px;
 
-    font-size: 40px;
+    line-height: 35px;
+    font-size: 45px;
+    letter-spacing: 1.5px;
     text-align: center;
 }
 
 .main-section__subtitle {
-    margin-bottom: 30px;
-    font-size: 22px;
+    margin-bottom: 22px;
+    font-size: 20px;
 }
 
 .main-section__infobox-container {

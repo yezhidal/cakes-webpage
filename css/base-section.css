@@ -6,19 +6,19 @@
     padding: 40px 20px 10px 20px;
     background-color: rgb(251, 235, 234);
 
-    font-family: "PT Sans Caption", sans-serif;
+    font-family: "Circe", sans-serif;
     font-size: 14px;
 }
 
 .base-section__title {
     font-family: "Playfair Display", serif;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 26px;
     color: rgb(45, 40, 41);
 }
 
 .base-section__subtitle {
-    font-family: "Dancing Script";
+    font-family: "IntroScriptR", cursive;
     font-style: italic;
     font-size: 22px;
     color: rgb(50, 49, 61);

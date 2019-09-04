@@ -1,13 +1,14 @@
 .delivery-section {
-    padding-bottom: 140px;
+    padding-top: 30px;
+    padding-bottom: 165px;
 
     color: rgb(255, 255, 255);
 
     background-color: rgb(227, 53, 61);
     background-image: url("../img/delivery.png");
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center 170%;
+    /* background-size: 100%; */
+    background-position: center 320px;
 }
 
 .delivery-section__title {
@@ -16,26 +17,5 @@
 }
 
 .delivery-section__steps-container {
-    margin: 0 15px;
+    margin: 0 20px;
 }
-
-/* .delivery-section__step-list {
-    counter-reset: step-counter;
-}
-
-.delivery-section__step-container::before {
-    margin-right: 10px;
-    content: counter(step-counter);
-    font-family: "Playfair Display", serif;
-    font-weight: bold;
-    font-size: 35px;
-}
-
-.delivery-section__step-container {
-    counter-increment: step-counter;
-    display: flex;
-    margin-bottom: 20px;
-}
-.delivery-section__step-container:last-of-type {
-    margin-bottom: 0px;
-} */

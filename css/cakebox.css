@@ -16,14 +16,14 @@
     overflow: hidden;
     white-space: nowrap;
 
-    font-family: "PT Sans Caption", sans-serif;
+    font-family: "Playfair Display", sans-serif;
     font-size: 14px;
     color: rgb(73, 69, 70);
 }
 
 .cakebox__amount {
-    font-family: "PT Sans Caption", sans-serif;
-    font-size: 12px;
+    font-family: "Circe", sans-serif;
+    font-size: 10px;
     color: rgb(108, 104, 105);
 }
 
