@@ -1,37 +1,39 @@
-.base-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+@media only screen and (max-width: 768px) {
+    .base-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
-    padding: 40px 20px 10px 20px;
-    background-color: rgb(251, 235, 234);
+        padding: 40px 20px 10px 20px;
+        background-color: rgb(251, 235, 234);
 
-    font-family: "Circe", sans-serif;
-    font-size: 14px;
-}
+        font-family: "Circe", sans-serif;
+        font-size: 14px;
+    }
 
-.base-section__title {
-    font-family: "Playfair Display", serif;
-    font-weight: bold;
-    font-size: 26px;
-    color: rgb(45, 40, 41);
-}
+    .base-section__title {
+        font-family: "Playfair Display", serif;
+        font-weight: bold;
+        font-size: 26px;
+        color: rgb(45, 40, 41);
+    }
 
-.base-section__subtitle {
-    font-family: "IntroScriptR", cursive;
-    font-style: italic;
-    font-size: 22px;
-    color: rgb(50, 49, 61);
-}
+    .base-section__subtitle {
+        font-family: "IntroScriptR", cursive;
+        font-style: italic;
+        font-size: 22px;
+        color: rgb(50, 49, 61);
+    }
 
-.base-section__list {
-    width: 100%;
-}
+    .base-section__list {
+        width: 100%;
+    }
 
-.base-section__list-item {
-    margin-bottom: 10px;
-}
+    .base-section__list-item {
+        margin-bottom: 10px;
+    }
 
-.base-section__list-item:last-of-type {
-    margin-bottom: 0;
+    .base-section__list-item:last-of-type {
+        margin-bottom: 0;
+    }
 }

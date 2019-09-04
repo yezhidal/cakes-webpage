@@ -1,33 +1,35 @@
-.delivery-steps {
-    counter-reset: step-counter;
+@media only screen and (max-width: 768px) {
+    .delivery-steps {
+        counter-reset: step-counter;
+    }
+
+    .delivery-steps__list-item::before {
+        margin-right: 10px;
+        content: counter(step-counter);
+        font-family: "Playfair Display", serif;
+        font-weight: bold;
+        font-size: 35px;
+    }
+
+    .delivery-steps__list-item {
+        counter-increment: step-counter;
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .delivery-steps__list-item:last-of-type {
+        margin-bottom: 0px;
+    }
+
+    .delivery-steps__step-content {}
+
+    .delivery-steps__step-name {
+        margin-bottom: 10px;
+
+        font-family: "PT Sans Caption", sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .delivery-steps__step-text {}
 }
-
-.delivery-steps__list-item::before {
-    margin-right: 10px;
-    content: counter(step-counter);
-    font-family: "Playfair Display", serif;
-    font-weight: bold;
-    font-size: 35px;
-}
-
-.delivery-steps__list-item {
-    counter-increment: step-counter;
-    display: flex;
-    margin-bottom: 20px;
-}
-
-.delivery-steps__list-item:last-of-type {
-    margin-bottom: 0px;
-}
-
-.delivery-steps__step-content {}
-
-.delivery-steps__step-name {
-    margin-bottom: 10px;
-
-    font-family: "PT Sans Caption", sans-serif;
-    font-weight: bold;
-    font-size: 14px;
-}
-
-.delivery-steps__step-text {}

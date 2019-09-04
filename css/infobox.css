@@ -1,17 +1,19 @@
-.infobox {
-}
+@media only screen and (max-width: 768px) {
+    .infobox {
+    }
 
-.infobox__item {
-    display: flex;
-    padding-right: 20px;
-    margin-bottom: 15px;
-}
-.infobox__item:last-of-type {
-    margin-bottom: 0;
-}
+    .infobox__item {
+        display: flex;
+        padding-right: 20px;
+        margin-bottom: 15px;
+    }
+    .infobox__item:last-of-type {
+        margin-bottom: 0;
+    }
 
-.infobox__text {
-    margin-left: 10px;
-    font-size: 14px;
-    line-height: 17px;
+    .infobox__text {
+        margin-left: 10px;
+        font-size: 14px;
+        line-height: 17px;
+    }
 }

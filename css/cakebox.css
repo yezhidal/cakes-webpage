@@ -1,39 +1,41 @@
-.cakebox {
-    display: block;
-    position: relative;
-    z-index: 0;
-    overflow: hidden;
+@media only screen and (max-width: 768px) {
+    .cakebox {
+        display: block;
+        position: relative;
+        z-index: 0;
+        overflow: hidden;
 
-    box-sizing: border-box;
-    height: 120px;
+        box-sizing: border-box;
+        height: 120px;
 
-    padding: 12px;
-    background-color: rgb(255, 255, 255);
-}
+        padding: 12px;
+        background-color: rgb(255, 255, 255);
+    }
 
-.cakebox__type {
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
+    .cakebox__type {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
 
-    font-family: "Playfair Display", sans-serif;
-    font-size: 14px;
-    color: rgb(73, 69, 70);
-}
+        font-family: "Playfair Display", sans-serif;
+        font-size: 14px;
+        color: rgb(73, 69, 70);
+    }
 
-.cakebox__amount {
-    font-family: "Circe", sans-serif;
-    font-size: 10px;
-    color: rgb(108, 104, 105);
-}
+    .cakebox__amount {
+        font-family: "Circe", sans-serif;
+        font-size: 10px;
+        color: rgb(108, 104, 105);
+    }
 
-.cakebox__image {
-    margin-left: auto;
-    margin-right: auto;
-    z-index: -1;
+    .cakebox__image {
+        margin-left: auto;
+        margin-right: auto;
+        z-index: -1;
 
-    position: absolute;
-    top: -50px;
-    left: 0;
-    right: 0;
+        position: absolute;
+        top: -50px;
+        left: 0;
+        right: 0;
+    }
 }

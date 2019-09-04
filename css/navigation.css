@@ -1,26 +1,28 @@
-.navigation--dropdown .navigation__link {
-    width: 100%;
-    line-height: 40px;
-    text-align: center;
-}
+@media only screen and (max-width: 768px) {
+    .navigation--dropdown .navigation__link {
+        width: 100%;
+        line-height: 40px;
+        text-align: center;
+    }
 
-.navigation--dropdown .navigation__item {
-    display: flex;
-    width: 100vw;
+    .navigation--dropdown .navigation__item {
+        display: flex;
+        width: 100vw;
 
-    background-color: rgb(231, 231, 231);
-    border-bottom: 2px solid rgb(222, 222, 222);
+        background-color: rgb(231, 231, 231);
+        border-bottom: 2px solid rgb(222, 222, 222);
 
-    color: rgb(56, 56, 56);
-    font-family: "PT Sans Caption", sans-serif;
-    font-size: 12px;
-    text-transform: uppercase;
-}
-.navigation--dropdown .navigation__item:last-of-type {
-    border: none;
-}
+        color: rgb(56, 56, 56);
+        font-family: "PT Sans Caption", sans-serif;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+    .navigation--dropdown .navigation__item:last-of-type {
+        border: none;
+    }
 
-.navigation__item {
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
+    .navigation__item {
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+    }
 }
