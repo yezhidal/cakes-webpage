@@ -15,11 +15,11 @@
     color: rgb(255, 255, 255);
 }
 
-.deliver-section__step-list-container {
+.delivery-section__steps-container {
     margin: 0 15px;
 }
 
-.delivery-section__step-list {
+/* .delivery-section__step-list {
     counter-reset: step-counter;
 }
 
@@ -38,4 +38,4 @@
 }
 .delivery-section__step-container:last-of-type {
     margin-bottom: 0px;
-}
+} */
