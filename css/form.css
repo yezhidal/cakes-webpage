@@ -1,47 +1,64 @@
-@media only screen and (max-width: 768px) {
-    .form {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    .form__button-container {
-        margin-top: 10px;
-        width: 180px;
-    }
+.form__button-container {
+    margin-top: 10px;
+    width: 180px;
+}
 
-    .form__description {
-        align-self: flex-start;
-        margin-bottom: 10px;
-    }
+.form__description {
+    align-self: flex-start;
+    margin-bottom: 10px;
+    font-family: "Circe" sans-serif;
+}
 
-    .form__field {
-        box-sizing: border-box;
-        width: 100%;
-        height: 50px;
-        padding: 10px;
-        margin-bottom: 10px;
-        border-radius: 3px;
-    }
+.form__field {
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
 
-    .form__field--textarea {
-        height: 120px;
-    }
+.form__field--textarea {
+    height: 120px;
+}
 
-    .form__field::placeholder {
-        font-family: "PT Sans Caption", sans-serif;
-        font-size: 14px;
-        color: rgb(204, 204, 204);
-    }
+.form__field::placeholder {
+    font-family: "Circe", sans-serif;
+    font-size: 14px;
+    color: rgb(204, 204, 204);
 }
 
 @media only screen and (min-width: 1366px) {
     .form {
-        display: flex;
-        flex-direction: column;
+        align-items: flex-start;
+        padding-right: 45px;
+    }
+
+    .form__description {
+        margin-bottom: 50px;
+        font-family: "Circe" sans-serif;
+        font-size: 20px;
+    }
+
+    .form__field {
+        height: 1em;
+        padding: 0;
+        margin-bottom: 30px;
+        border-bottom: 1px solid rgb(201, 188, 187);
+        background-color: transparent;
+    }
+
+    .form__field--textarea {
     }
 
     .form__button-container {
+        margin-top: 80px;
         width: 175px;
     }
 }
