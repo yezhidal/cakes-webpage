@@ -19,10 +19,30 @@
     }
 
     .cakes-section__list {
-        display: grid;
     }
 
     .cakes-section__list-item {
-        width: 50%;
+        height: 300px;
+        width: calc((100% - 35px) / 2);
+    }
+
+    .cakes-section__list-item:nth-of-type(6n + 1) {
+        height: 635px;
+        margin-right: 35px;
+    }
+    .cakes-section__list-item:nth-of-type(6n + 4) {
+        margin-left: 35px;
+        height: 635px;
+    }
+
+    .cakes-section__list-item:nth-of-type(6n + 1),
+    .cakes-section__list-item:nth-of-type(6n + 2),
+    .cakes-section__list-item:nth-of-type(6n + 3) {
+        float: left;
+    }
+    .cakes-section__list-item:nth-of-type(6n + 4),
+    .cakes-section__list-item:nth-of-type(6n + 5),
+    .cakes-section__list-item:nth-of-type(6n + 6) {
+        float: right;
     }
 }
