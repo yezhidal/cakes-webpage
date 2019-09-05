@@ -1,52 +1,57 @@
-@media only screen and (max-width: 768px) {
-    .navigation--dropdown .navigation__link {
-        width: 100%;
-        line-height: 40px;
-        text-align: center;
-    }
-
-    .navigation__menu {
-        flex-direction: column;
-    }
-
-    .navigation--dropdown .navigation__item {
-        display: flex;
-        width: 100vw;
-
-        margin-bottom: 0;
-        background-color: rgb(231, 231, 231);
-        border-bottom: 2px solid rgb(222, 222, 222);
-
-        color: rgb(56, 56, 56);
-        font-family: "PT Sans Caption", sans-serif;
-        font-size: 12px;
-        text-transform: uppercase;
-    }
-    .navigation--dropdown .navigation__item:last-of-type {
-        border: none;
-    }
-
-    .navigation__item {
-        font-family: "Roboto", sans-serif;
-        margin-bottom: 20px;
-    }
-}
-
-        font-size: 14px;
-    }
-}
-
-@media only screen and (min-width: 1366px) {
+.navigation--dropdown .navigation__link {
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
 }
 
 .navigation__menu {
     display: flex;
+    flex-direction: column;
+}
+
+.navigation--dropdown .navigation__item {
+    display: flex;
+    width: 100vw;
+
+    background-color: rgb(231, 231, 231);
+    border-bottom: 2px solid rgb(222, 222, 222);
+    margin-bottom: 0;
+
+    color: rgb(56, 56, 56);
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.navigation--dropdown .navigation__item:last-of-type {
+    border: none;
 }
 
 .navigation__item {
-    margin-right: 40px;
+    margin-bottom: 20px;
+    font-size: 14px;
 }
 
-.navigation__item:last-of-type {
-    margin-right: 0px;
+@media only screen and (min-width: 1366px) {
+    .navigation__menu {
+        flex-direction: row;
+    }
+
+    .navigation--dropdown .navigation__item {
+        display: block;
+        width: fit-content;
+
+        background-color: transparent;
+        border: none;
+    }
+
+    .navigation__item {
+        margin-bottom: 0;
+        margin-right: 40px;
+        font-size: 14px;
+    }
+
+    .navigation__item:last-of-type {
+        margin-right: 0;
+    }
 }
