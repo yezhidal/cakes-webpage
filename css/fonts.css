@@ -3,7 +3,7 @@
     src: url('https://fonts.googleapis.com/css?family=Playfair+Display$display=swap');
 }
 @font-face {
-    font-family: 'IntroScriptR', cursive;
+    font-family: 'IntroScriptR';
     src: url('../fonts/IntroScriptR-H2Base.otf') format('.otf');
 }
 @font-face {

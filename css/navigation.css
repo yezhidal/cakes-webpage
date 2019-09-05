@@ -42,6 +42,6 @@
     margin-right: 40px;
 }
 
-.navigation__item:last-fo-type {
+.navigation__item:last-of-type {
     margin-right: 0px;
 }

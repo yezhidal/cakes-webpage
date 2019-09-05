@@ -1,9 +1,4 @@
 @media only screen and (max-width: 768px) {
-    .logo {
-        font-family: "Playfair Display", serif;
-        font-weight: bold;
-    }
-
     .logo--dark {
         color: rgb(0, 0, 0);
         font-size: 16px;
@@ -13,4 +8,19 @@
         color: rgb(255, 255, 255);
         font-size: 28px;
     }
+}
+
+@media only screen and (min-width: 1366px) {
+    .logo--dark {
+        font-size: 23.24px;
+    }
+
+    .logo--light {
+        font-size: 28px;
+    }
+}
+
+.logo {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
 }

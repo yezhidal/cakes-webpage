@@ -3,6 +3,7 @@
         flex-direction: column;
         align-items: flex-start;
 
+        padding-top: 40px;
         padding-bottom: 50px;
     }
 
@@ -30,16 +31,20 @@
 }
 
 @media only screen and (min-width: 1366px) {
+    .contacts-section {
+        padding-top: 80px;
+    }
+
     .contacts-section__content {
         display: flex;
     }
 
     .contacts-section__title {
-        margin-bottom: 10px;
+        margin-bottom: 40px;
     }
 
     .contacts-section__subtitle {
-        margin-bottom: 10px;
+        margin-bottom: 25px;
     }
 
     .contacts-section__form-container {

@@ -34,3 +34,14 @@
         color: rgb(204, 204, 204);
     }
 }
+
+@media only screen and (min-width: 1366px) {
+    .form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form__button-container {
+        width: 175px;
+    }
+}
