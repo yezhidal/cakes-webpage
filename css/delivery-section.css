@@ -1,22 +1,18 @@
-@media only screen and (max-width: 768px) {
-    .delivery-section {
-        padding-top: 30px;
-        padding-bottom: 165px;
+.delivery-section {
+    padding: 30px 40px 165px 40px;
 
-        color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
 
-        background-color: rgb(227, 53, 61);
-        background-position: center 320px;
-    }
+    background-color: rgb(227, 53, 61);
+    background-position: center 320px;
+    background-image: url("../img/delivery.png");
+    background-repeat: no-repeat;
+    background-position: center 320px;
+}
 
-    .delivery-section__title {
-        margin-bottom: 30px;
-        color: rgb(255, 255, 255);
-    }
-
-    .delivery-section__steps-container {
-        margin: 0 20px;
-    }
+.delivery-section__title {
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
 }
 
 @media only screen and (min-width: 1366px) {
@@ -32,16 +28,12 @@
         color: rgb(255, 255, 255);
     }
 
-    .delivery-section__steps-container {
-        margin: 0 20px;
+    .delivery-section__content {
+        align-self: flex-end;
+        width: 50%;
     }
-}
 
-.delivery-section {
-    color: rgb(255, 255, 255);
-
-    background-color: rgb(227, 53, 61);
-    background-image: url("../img/delivery.png");
-    background-repeat: no-repeat;
-    background-position: center 320px;
+    .delivery-section__steps-container {
+        margin: 0;
+    }
 }
