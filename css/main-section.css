@@ -4,6 +4,12 @@
     padding-bottom: 20px;
 }
 
+.main-section__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .main-section__title {
     margin-bottom: 20px;
 
@@ -28,10 +34,16 @@
 
 @media only screen and (min-width: 1366px) {
     .main-section {
-        width: 50%;
-        justify-content: flex-start;
         padding-top: 0;
         padding-bottom: 250px;
+    }
+
+    .main-section__content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        width: 50%;
     }
 
     .main-section__title {
