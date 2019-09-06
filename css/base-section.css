@@ -28,17 +28,6 @@
     color: rgb(50, 49, 61);
 }
 
-.base-section__list {
-    width: 100%;
-}
-
-.base-section__list-item {
-    margin-bottom: 10px;
-}
-.base-section__list-item:last-of-type {
-    margin-bottom: 0;
-}
-
 @media only screen and (min-width: 1366px) {
     .base-section {
         align-items: flex-start;
@@ -56,9 +45,5 @@
 
     .base-section__subtitle {
         font-size: 35px;
-    }
-
-    .base-section__list-item {
-        margin-bottom: 35px;
     }
 }
