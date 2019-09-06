@@ -42,6 +42,10 @@
         font-size: 78.31px;
     }
 
+    .main-section__anchor {
+        top: -150px;
+    }
+
     .main-section__subtitle {
         margin-bottom: 50px;
         font-size: 40.83px;
