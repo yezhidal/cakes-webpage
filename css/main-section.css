@@ -36,6 +36,10 @@
     .main-section {
         padding-top: 0;
         padding-bottom: 250px;
+        background-image: url("../img/main.png");
+        background-repeat: no-repeat;
+        background-size: 250px;
+        background-position: top 0 right 600px;
     }
 
     .main-section__content {
