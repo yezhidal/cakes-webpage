@@ -37,6 +37,10 @@
         flex-direction: row;
     }
 
+    .navigation--dropdown .navigation__link {
+        line-height: 1em;
+    }
+
     .navigation--dropdown .navigation__item {
         display: block;
         width: fit-content;

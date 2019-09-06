@@ -42,6 +42,11 @@
         margin: 40px 0;
     }
 
+    .footer__navigation-container {
+        align-self: flex-end;
+        height: fit-content;
+    }
+
     .footer__social-media-container {
         margin: 0;
     }
