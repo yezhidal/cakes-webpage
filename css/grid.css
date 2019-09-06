@@ -1,18 +1,19 @@
-.grid__row {
+.grid {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .grid__cell {
 }
 
-.grid__cell--5-12 {
-    width: calc(100% / 12 * 5);
+.grid__cell--6-12 {
+    width: 50%;
 }
 
 
-@media only screen and (max-width: 768px) {
-    .grid__cell--5-12 {
+@media only screen and (max-width: 1365px) {
+    .grid__cell--6-12 {
         width: 100%;
     }
 }

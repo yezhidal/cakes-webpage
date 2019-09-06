@@ -14,7 +14,7 @@
 
 .tiled-list__item:nth-of-type(6n + 4) {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     order: 1;
 }
 
