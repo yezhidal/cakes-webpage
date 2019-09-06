@@ -18,7 +18,8 @@
   <link rel="stylesheet" href="css/ordered-list.css">
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/cakebox.css">
-  <link rel="stylesheet" href="css/cakebox-group.css">
+  <link rel="stylesheet" href="css/tiled-list.css">
+  <link rel="stylesheet" href="css/phone.css">
   <link rel="stylesheet" href="css/button.css">
   <link rel="stylesheet" href="css/infobox.css">
   <link rel="stylesheet" href="css/delivery-step.css">
@@ -32,7 +33,6 @@
 
 <body>
   <div>
-
   <!-- ===================== HEADER ===================== -->
   <header class="header">
     <div class="header__wrapper">
@@ -72,8 +72,9 @@
       </div>
     </div>
 
-    <a class="header__phone" href="tel:+79068999296">+7 906 899 92 96</a>
-
+    <div class="header__phone-container">
+      <a class="phone" href="tel:+79068999296">+7 906 899 92 96</a>
+    </div>
   </header>
 
   <!-- ===================== MAIN SECTION ===================== -->
@@ -109,8 +110,8 @@
     <a id="cakes-section-anchor" class="base-section__anchor"></a>
     <h2 class="base-section__title cakes-section__title">Наши торты</h2>
   
-    <ul class="base-section__list cakes-section__list">
-      <li class="base-section__list-item cakes-section__list-item">
+    <ul class="tiled-list">
+      <li class="tiled-list__item">
         <a class="cakebox" href="#">
           <p class="cakebox__type">Классические</p>
           <p class="cakebox__amount">24 вида</p>
@@ -118,7 +119,7 @@
         </a>
       </li>
 
-      <li class="base-section__list-item cakes-section__list-item">
+      <li class="tiled-list__item">
         <a class="cakebox" href="#">
           <p class="cakebox__type">Муссовые</p>
           <p class="cakebox__amount">12 видов</p>
@@ -126,7 +127,7 @@
         </a>
       </li>
 
-      <li class="base-section__list-item cakes-section__list-item">
+      <li class="tiled-list__item">
         <a class="cakebox" href="#">
           <p class="cakebox__type">Свадебные</p>
           <p class="cakebox__amount">20 видов</p>
@@ -135,7 +136,7 @@
       </li>
 
 
-      <li class="base-section__list-item cakes-section__list-item">
+      <li class="tiled-list__item">
         <a class="cakebox" href="#">
           <p class="cakebox__type">Детские</p>
           <p class="cakebox__amount">18 видов</p>
@@ -143,7 +144,7 @@
         </a>
       </li>
 
-      <li class="base-section__list-item cakes-section__list-item">
+      <li class="tiled-list__item">
         <a class="cakebox" href="#">
           <p class="cakebox__type">Мужчинам</p>
           <p class="cakebox__amount">12 видов</p>
@@ -151,7 +152,7 @@
         </a>
       </li>
 
-      <li class="base-section__list-item cakes-section__list-item">
+      <li class="tiled-list__item">
         <a class="cakebox" href="#">
           <p class="cakebox__type">Женщинам</p>
           <p class="cakebox__amount">16 видов</p>
@@ -218,7 +219,7 @@
         <ul class="base-section__list grid__cell--5-12">
           <li class="base-section__list-item contacts-section__list-item">
             <p>Или позвоните по телефону:<br>
-              <a href="tel:+79068999296">+7 906 899 92 96</a>
+              <a class="phone" href="tel:+79068999296">+7 906 899 92 96</a>
             </p>
           </li>
 
@@ -287,7 +288,9 @@
         </nav>
       </div>
 
-      <a class="footer__phone" href="tel:+79068999296">+7 906 899 92 96</a>
+      <div class="footer__phone-container">
+        <a class="phone" href="tel:+79068999296">+7 906 899 92 96</a>
+      </div>
 
       <div class="footer__social-media-container">
         <ul class="social-media">

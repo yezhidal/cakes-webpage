@@ -47,7 +47,7 @@
     top: 40px;
 }
 
-.header__phone {
+.header__phone-container {
     display: none;
 }
 
@@ -88,7 +88,7 @@
         height: fit-content;
     }
 
-    .header__phone {
-        display: inline;
+    .header__phone-container {
+        display: block;
     }
 }
