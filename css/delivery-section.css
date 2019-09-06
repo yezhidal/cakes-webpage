@@ -4,10 +4,10 @@
     color: rgb(255, 255, 255);
 
     background-color: rgb(227, 53, 61);
-    background-position: center 320px;
     background-image: url("../img/delivery.png");
     background-repeat: no-repeat;
-    background-position: center 320px;
+    background-size: 250px;
+    background-position: bottom -70px center;
 }
 
 .delivery-section__title {
@@ -20,7 +20,8 @@
         padding-top: 130px;
         padding-bottom: 180px;
         color: rgb(255, 255, 255);
-        background-position: bottom left;
+        background-size: 800px;
+        background-position: bottom -150px left;
     }
 
     .delivery-section__title {
@@ -30,7 +31,7 @@
 
     .delivery-section__content {
         align-self: flex-end;
-        width: 50%;
+        width: 40%;
     }
 
     .delivery-section__steps-container {
