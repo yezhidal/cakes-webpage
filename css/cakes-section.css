@@ -7,6 +7,17 @@
     margin-bottom: 35px;
 }
 
+.cakes-section__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.cakes-section__list-item:nth-of-type(6n + 4) {
+    /* TODO CHANGE MARGIN */
+    margin-top: 10px;
+    order: 6;
+}
+
 
 @media only screen and (min-width: 1366px) {
     .cakes-section {
@@ -19,6 +30,7 @@
     }
 
     .cakes-section__list {
+        display: block;
     }
 
     .cakes-section__list-item {
