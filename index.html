@@ -26,6 +26,7 @@
   <link rel="stylesheet" href="css/navigation.css">
   <link rel="stylesheet" href="css/social-media.css">
   <link rel="stylesheet" href="css/contacts-section.css">
+  <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/form.css">
 </head>
 
@@ -191,50 +192,52 @@
     <h2 class="base-section__title contacts-section__title">Контакты</h2>
     <h3 class="base-section__subtitle contacts-section__subtitle">Остались вопросы?</h3>
 
-    <div class="contacts-section__content">
-      <div class="contacts-section__form-container">
-        <form class="form" action="">
-          <p class="form__description">Заполните форму ниже и наш кондитер свяжется с Вами:</p>
-          <input class="form__field" type="text" placeholder="Ваше имя">
-          <input class="form__field" type="email" placeholder="Email адрес">
-          <textarea class="form__field form__field--textarea" type="text" placeholder="Ваш вопрос"></textarea>
-          <div class="form__button-container">
-            <button class="button" type="submit">Отправить</button>
-          </div>
-        </form>
+    <div class="grid">
+      <div class="grid__row">
+        <div class="contacts-section__form-container grid__cell--5-12">
+          <form class="form" action="">
+            <p class="form__description">Заполните форму ниже и наш кондитер свяжется с Вами:</p>
+            <input class="form__field" type="text" placeholder="Ваше имя">
+            <input class="form__field" type="email" placeholder="Email адрес">
+            <textarea class="form__field form__field--textarea" type="text" placeholder="Ваш вопрос"></textarea>
+            <div class="form__button-container">
+              <button class="button" type="submit">Отправить</button>
+            </div>
+          </form>
+        </div>
+
+        <ul class="base-section__list grid__cell--5-12">
+          <li class="base-section__list-item contacts-section__list-item">
+            <p>Или позвоните по телефону:<br>
+              <a href="tel:+79068999296">+7 906 899 92 96</a>
+            </p>
+          </li>
+
+          <li class="base-section__list-item contacts-section__list-item">
+            <p>Наша почта: <a href="mailto:bakerybypavel@mail.ru">bakerybypavel@mail.ru</a></p>
+          </li>
+
+          <li class="base-section__list-item contacts-section__list-item">
+            <p>Мы в соцсецях:</p>
+
+            <div class="contacts-section__social-media-container">
+              <ul class="social-media social-media--round-button">
+                <li class="social-media__item">
+                  <a href="#">
+                    <img src="img/instagram-icon.svg">
+                  </a>
+                </li>
+
+                <li class="social-media__item">
+                  <a href="#">
+                    <img src="img/vk-icon.svg">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
       </div>
-
-      <ul class="base-section__list">
-        <li class="base-section__list-item contacts-section__list-item">
-          <p>Или позвоните по телефону:<br>
-            <a href="tel:+79068999296">+7 906 899 92 96</a>
-          </p>
-        </li>
-
-        <li class="base-section__list-item contacts-section__list-item">
-          <p>Наша почта: <a href="mailto:bakerybypavel@mail.ru">bakerybypavel@mail.ru</a></p>
-        </li>
-
-        <li class="base-section__list-item contacts-section__list-item">
-          <p>Мы в соцсецях:</p>
-
-          <div class="contacts-section__social-media-container">
-            <ul class="social-media social-media--round-button">
-              <li class="social-media__item">
-                <a href="#">
-                  <img src="img/instagram-icon.svg">
-                </a>
-              </li>
-
-              <li class="social-media__item">
-                <a href="#">
-                  <img src="img/vk-icon.svg">
-                </a>
-              </li>
-            </ul>
-          </div>
-        </li>
-      </ul>
     </div>
   </section>
 

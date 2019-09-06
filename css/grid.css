@@ -1,0 +1,18 @@
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid__cell {
+}
+
+.grid__cell--5-12 {
+    width: calc(100vw / 12 * 5);
+}
+
+
+@media only screen and (max-width: 768px) {
+    .grid__cell--5-12 {
+        width: 100%;
+    }
+}
