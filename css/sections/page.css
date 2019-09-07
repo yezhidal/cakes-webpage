@@ -1,0 +1,26 @@
+.page {
+    min-width: 320px;
+    background-color: rgb(251, 235, 234);
+
+    background-repeat: no-repeat;
+    background-image:
+        url("../../img/cake.png"),
+        url("../../img/main.png");
+    background-size:
+        380px,
+        0;
+    background-position:
+        top -150px center,
+        0;
+}
+
+@media only screen and (min-width: 1366px) {
+    .page {
+        background-size:
+            800px,
+            250px;
+        background-position:
+            top 100px right -100px,
+            top 100px right 700px;
+    }
+}

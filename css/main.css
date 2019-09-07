@@ -1,22 +1,6 @@
-body {
-    min-width: 320px;
-    background-color: rgb(251, 235, 234);
-    background-image: url("../img/cake.png");
-    background-repeat: no-repeat;
-    background-size: 380px;
-    background-position: top -150px center;
-}
-
 hr {
     width: 100%;
     color: rgb(173, 173, 173);
     background-color: rgb(173, 173, 173);
     height: 1px;
-}
-
-@media only screen and (min-width: 1366px) {
-    body {
-        background-size: 800px;
-        background-position: top 100px right -150px;
-    }
 }
