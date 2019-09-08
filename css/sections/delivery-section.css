@@ -18,6 +18,12 @@
 }
 
 @media only screen and (min-width: 1366px) {
+    .delivery-section__content {
+        padding-top: 130px;
+        padding-left: 750px;
+        padding-bottom: 180px;
+    }
+
     .delivery-section {
         color: rgb(255, 255, 255);
         background-size: 800px;
@@ -27,11 +33,5 @@
     .delivery-section__title {
         margin-bottom: 30px;
         color: rgb(255, 255, 255);
-    }
-
-    .delivery-section__content {
-        padding-top: 130px;
-        padding-left: 750px;
-        padding-bottom: 180px;
     }
 }

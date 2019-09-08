@@ -1,8 +1,3 @@
-.navigation__menu {
-    display: flex;
-    flex-direction: column;
-}
-
 .navigation__item {
     margin-bottom: 20px;
     font-size: 14px;
@@ -34,7 +29,7 @@
 
 @media only screen and (min-width: 1366px) {
     .navigation__menu {
-        flex-direction: row;
+        display: flex;
     }
 
     .navigation__item {

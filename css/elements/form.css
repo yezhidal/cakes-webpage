@@ -1,16 +1,11 @@
-.form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .form__button-container {
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 10px;
     width: 180px;
 }
 
 .form__description {
-    align-self: flex-start;
     margin-bottom: 10px;
     font-family: "Circe" sans-serif;
 }
@@ -36,7 +31,6 @@
 
 @media only screen and (min-width: 1366px) {
     .form {
-        align-items: flex-start;
         padding-right: 45px;
     }
 
@@ -54,10 +48,9 @@
         background-color: transparent;
     }
 
-    .form__field--textarea {
-    }
-
     .form__button-container {
+        margin-left: 0;
+        margin-right: 0;
         margin-top: 80px;
         width: 175px;
     }
