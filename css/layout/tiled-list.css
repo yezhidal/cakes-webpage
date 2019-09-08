@@ -24,18 +24,15 @@
     }
 
     .tiled-list__item {
-        height: 300px;
         margin-bottom: 35px;
         width: calc(50% - 17.5px);
     }
 
     .tiled-list__item:nth-of-type(6n + 1) {
-        height: 635px;
         margin-right: 35px;
         margin-bottom: 0;
     }
     .tiled-list__item:nth-of-type(6n + 4) {
-        height: 635px;
         margin-top: 0;
         margin-bottom: 0;
         margin-left: 35px;
