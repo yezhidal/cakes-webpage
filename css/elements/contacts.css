@@ -1,12 +1,13 @@
-.contacts {
-}
-
 .contacts__item {
     margin-bottom: 25px;
 }
 
 .contacts__item:last-of-type {
     margin-bottom: 0;
+}
+
+.contacts__social-media-container {
+    margin-top: 15px;
 }
 
 @media only screen and (min-width: 1366px) {
