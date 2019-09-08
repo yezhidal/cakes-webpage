@@ -1,0 +1,31 @@
+.dropdown__trigger {
+    height: 15px;
+    width: 18px;
+    background-color: rgb(255, 255, 255);
+    background-image: url("../../img/menu.png");
+}
+
+.dropdown__trigger:focus + .dropdown__content,
+.dropdown__content:hover {
+    display: block;
+}
+
+.dropdown__content {
+    display: none;
+    position: fixed;
+    top: 40px;
+    left: 0;
+}
+
+@media only screen and (min-width: 1366px) {
+    .dropdown__trigger {
+        display: none;
+    }
+
+    .dropdown__content {
+        display: block;
+        position: initial;
+        flex-grow: 2;
+    }
+
+}

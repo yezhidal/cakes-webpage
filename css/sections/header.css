@@ -20,24 +20,6 @@
     width: 100%;
 }
 
-.header__navigation-button {
-    height: 15px;
-    width: 18px;
-    background-color: rgb(255, 255, 255);
-    background-image: url("../../img/menu.png");
-}
-
-.header__navigation-button:focus + .header__navigation-container,
-.header__navigation-container:hover {
-    display: block;
-}
-.header__navigation-container {
-    display: none;
-    position: fixed;
-    top: 40px;
-    left: 0;
-}
-
 .header__phone-container {
     display: none;
 }
@@ -60,16 +42,6 @@
 
     .header__logo-container {
         margin-right: 40px;
-    }
-
-    .header__navigation-button {
-        display: none;
-    }
-
-    .header__navigation-container {
-        display: block;
-        position: initial;
-        flex-grow: 2;
     }
 
     .header__phone-container {

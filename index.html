@@ -30,6 +30,7 @@
   <link rel="stylesheet" href="css/elements/form.css">
 
   <!-- ===================== LAYOUT ===================== -->
+  <link rel="stylesheet" href="css/layout/dropdown.css">
   <link rel="stylesheet" href="css/layout/ordered-list.css">
   <link rel="stylesheet" href="css/layout/tiled-list.css">
   <link rel="stylesheet" href="css/layout/grid.css">
@@ -51,35 +52,37 @@
         <a href="#main-section-anchor" class="logo logo--dark">Cakes</a>
       </div>
 
-      <button class="header__navigation-button"></button>
-      <div class="header__navigation-container">
-        <nav class="navigation navigation--dropdown">
-          <ul class="navigation__menu">
-            <li class="navigation__item">
-              <a class="navigation__link" href="#cakes-section-anchor">Наши торты</a>
-            </li>
+      <div class="dropdown">
+        <button class="dropdown__trigger"></button>
+        <div class="dropdown__content">
+          <nav class="navigation navigation--dropdown">
+            <ul class="navigation__menu">
+              <li class="navigation__item">
+                <a class="navigation__link" href="#cakes-section-anchor">Наши торты</a>
+              </li>
 
-            <li class="navigation__item">
-              <a class="navigation__link" href="#personal-order-section-anchor">Индивидуальный заказ</a>
-            </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="#personal-order-section-anchor">Индивидуальный заказ</a>
+              </li>
 
-            <li class="navigation__item">
-              <a class="navigation__link" href="#comments-section-anchor">Отзывы</a>
-            </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="#comments-section-anchor">Отзывы</a>
+              </li>
 
-            <li class="navigation__item">
-              <a class="navigation__link" href="#about-section-anchor">О нас</a>
-            </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="#about-section-anchor">О нас</a>
+              </li>
 
-            <li class="navigation__item">
-              <a class="navigation__link" href="#delivery-section-anchor">Как заказать</a>
-            </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="#delivery-section-anchor">Как заказать</a>
+              </li>
 
-            <li class="navigation__item">
-              <a class="navigation__link" href="#contacts-section-anchor">Контакты</a>
-            </li>
-          </ul>
-        </nav>
+              <li class="navigation__item">
+                <a class="navigation__link" href="#contacts-section-anchor">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
 
       <div class="header__phone-container">
