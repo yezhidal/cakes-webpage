@@ -1,0 +1,16 @@
+.contacts {
+}
+
+.contacts__item {
+    margin-bottom: 25px;
+}
+
+.contacts__item:last-of-type {
+    margin-bottom: 0;
+}
+
+@media only screen and (min-width: 1366px) {
+    .contacts__item {
+        margin-bottom: 25px;
+    }
+}
