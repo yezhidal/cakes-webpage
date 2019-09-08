@@ -4,7 +4,7 @@
 }
 
 .section__anchor {
-    position: absolute;
+    position: relative;
     top: -40px;
 }
 
