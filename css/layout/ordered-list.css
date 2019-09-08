@@ -11,8 +11,8 @@
 }
 
 .ordered-list__item {
-    counter-increment: step-counter;
     display: flex;
+    counter-increment: step-counter;
     margin-bottom: 20px;
 }
 

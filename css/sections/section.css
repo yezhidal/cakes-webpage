@@ -1,3 +1,12 @@
+.section--highlight {
+    color: rgb(255, 255, 255);
+    background-color: rgb(227, 53, 61);
+}
+.section--highlight .section__title,
+.section--highlight .section__subtitle {
+    color: rgb(255, 255, 255);
+}
+
 .section__content {
     padding: 0 20px;
     font-family: "Circe", sans-serif;
