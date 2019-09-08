@@ -4,13 +4,14 @@
 
 .social-media__item {
     margin-right: 15px;
+    fill: rgb(173, 173, 173);
+    cursor: pointer;
 }
 .social-media__item:last-of-type {
     margin-right: 0;
 }
-
-.social-media__item {
-    fill: rgb(173, 173, 173);
+.social-media__item:hover {
+    fill: rgb(255, 255, 255);
 }
 
 .social-media--round-button .social-media__item {
@@ -20,6 +21,10 @@
 
     background-color: rgb(255, 255, 255);
     fill: rgb(245, 11, 81);
+}
+.social-media--round-button .social-media__item:hover {
+    fill: rgb(245, 11, 81);
+    box-shadow: 0 0 5px rgb(252, 172, 189);
 }
 
 @media only screen and (min-width: 1366px) {

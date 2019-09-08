@@ -37,13 +37,15 @@
         margin-right: 40px;
         font-size: 14px;
     }
-
     .navigation__item:last-of-type {
         margin-right: 0;
     }
 
     .navigation--dropdown .navigation__link {
         line-height: 1em;
+    }
+    .navigation--dropdown .navigation__link:hover {
+        color: rgb(245, 31, 94);
     }
 
     .navigation--dropdown .navigation__item {

@@ -3,10 +3,16 @@
     height: 50px;
     border-radius: 25px;
 
+    cursor: pointer;
+
     background-color: rgb(245, 0, 73);
     color: rgb(255, 255, 255);
     text-transform: uppercase;
 
     font-family: "IntroScriptR", sans-serif;
     font-size: 13px;
+}
+
+.button:hover {
+    box-shadow: 0 5px 5px rgb(252, 172, 189);
 }
