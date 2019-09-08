@@ -25,7 +25,6 @@
     .dropdown__content {
         display: block;
         position: initial;
-        flex-grow: 2;
     }
 
 }

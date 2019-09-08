@@ -33,6 +33,10 @@
         background-color: transparent;
     }
 
+    .header__dropdown-container {
+        flex-grow: 2;
+    }
+
     .header__content {
         justify-content: initial;
         padding: 60px 73px;
