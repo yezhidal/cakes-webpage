@@ -1,8 +1,5 @@
 .delivery-section {
-    padding: 30px 40px 165px 40px;
-
     color: rgb(255, 255, 255);
-
     background-color: rgb(227, 53, 61);
     background-image: url("../../img/delivery.png");
     background-repeat: no-repeat;
@@ -10,15 +7,18 @@
     background-position: bottom -70px center;
 }
 
+.delivery-section__content {
+    padding: 30px 40px 165px 40px;
+}
+
 .delivery-section__title {
+    text-align: center;
     margin-bottom: 30px;
     color: rgb(255, 255, 255);
 }
 
 @media only screen and (min-width: 1366px) {
     .delivery-section {
-        padding-top: 130px;
-        padding-bottom: 180px;
         color: rgb(255, 255, 255);
         background-size: 800px;
         background-position: bottom -150px left;
@@ -30,11 +30,8 @@
     }
 
     .delivery-section__content {
-        align-self: flex-end;
-        width: 40%;
-    }
-
-    .delivery-section__steps-container {
-        margin: 0;
+        padding-top: 130px;
+        padding-left: 750px;
+        padding-bottom: 180px;
     }
 }

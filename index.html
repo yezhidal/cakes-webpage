@@ -9,7 +9,7 @@
 
   <!-- ===================== SECTIONS ===================== -->
   <link rel="stylesheet" href="css/sections/page.css">
-  <link rel="stylesheet" href="css/sections/base-section.css">
+  <link rel="stylesheet" href="css/sections/section.css">
   <link rel="stylesheet" href="css/sections/header.css">
   <link rel="stylesheet" href="css/sections/main-section.css">
   <link rel="stylesheet" href="css/sections/cakes-section.css">
@@ -23,6 +23,7 @@
   <link rel="stylesheet" href="css/elements/button.css">
   <link rel="stylesheet" href="css/elements/infobox.css">
   <link rel="stylesheet" href="css/elements/delivery-step.css">
+  <link rel="stylesheet" href="css/elements/contacts.css">
   <link rel="stylesheet" href="css/elements/logo.css">
   <link rel="stylesheet" href="css/elements/navigation.css">
   <link rel="stylesheet" href="css/elements/social-media.css">
@@ -44,8 +45,8 @@
 <body>
 <div class="page">
   <!-- ===================== HEADER ===================== -->
-  <header class="header">
-    <div class="header__wrapper">
+  <header class="section header">
+    <div class="section__content header__content">
       <div class="header__logo-container">
         <a href="#main-section-anchor" class="logo logo--dark">Cakes</a>
       </div>
@@ -80,20 +81,20 @@
           </ul>
         </nav>
       </div>
-    </div>
 
-    <div class="header__phone-container">
-      <a class="phone" href="tel:+79068999296">+7 906 899 92 96</a>
+      <div class="header__phone-container">
+        <a class="phone" href="tel:+79068999296">+7 906 899 92 96</a>
+      </div>
     </div>
   </header>
 
   <!-- ===================== MAIN SECTION ===================== -->
-  <section class="base-section main-section">
-    <a id="main-section-anchor" class="base-section__anchor main-section__anchor"></a>
+  <section class="section main-section">
+    <a id="main-section-anchor" class="section__anchor main-section__anchor"></a>
 
-    <div class="main-section__content">
-      <h1 class="base-section__title main-section__title">Торты<br> на заказ</h1>
-      <h2 class="base-section__subtitle main-section__subtitle">Ручная работа</h2>
+    <div class="section__content main-section__content">
+      <h1 class="section__title main-section__title">Торты<br> на заказ</h1>
+      <h2 class="section__subtitle main-section__subtitle">Ручная работа</h2>
 
       <div class="main-section__infobox-container">
         <ul class="infobox">
@@ -116,68 +117,71 @@
   </section>
 
   <!-- ===================== CAKES SECTION ===================== -->
-  <section class="base-section cakes-section">
-    <a id="cakes-section-anchor" class="base-section__anchor"></a>
-    <h2 class="base-section__title cakes-section__title">Наши торты</h2>
-  
-    <ul class="tiled-list">
-      <li class="tiled-list__item">
-        <a class="cakebox" href="#">
-          <p class="cakebox__type">Классические</p>
-          <p class="cakebox__amount">24 вида</p>
-          <img class="cakebox__image" src="img/cakes/classic-cake.png">
-        </a>
-      </li>
+  <section class="section cakes-section">
+    <a id="cakes-section-anchor" class="section__anchor"></a>
 
-      <li class="tiled-list__item">
-        <a class="cakebox" href="#">
-          <p class="cakebox__type">Муссовые</p>
-          <p class="cakebox__amount">12 видов</p>
-          <img class="cakebox__image" src="img/cakes/mousse-cake.png">
-        </a>
-      </li>
+    <div class="section__content cakes-section__content">
+      <h2 class="section__title cakes-section__title">Наши торты</h2>
+    
+      <ul class="tiled-list">
+        <li class="tiled-list__item">
+          <a class="cakebox" href="#">
+            <p class="cakebox__type">Классические</p>
+            <p class="cakebox__amount">24 вида</p>
+            <img class="cakebox__image" src="img/cakes/classic-cake.png">
+          </a>
+        </li>
 
-      <li class="tiled-list__item">
-        <a class="cakebox" href="#">
-          <p class="cakebox__type">Свадебные</p>
-          <p class="cakebox__amount">20 видов</p>
-          <img class="cakebox__image" src="img/cakes/wedding-cake.png">
-        </a>
-      </li>
+        <li class="tiled-list__item">
+          <a class="cakebox" href="#">
+            <p class="cakebox__type">Муссовые</p>
+            <p class="cakebox__amount">12 видов</p>
+            <img class="cakebox__image" src="img/cakes/mousse-cake.png">
+          </a>
+        </li>
+
+        <li class="tiled-list__item">
+          <a class="cakebox" href="#">
+            <p class="cakebox__type">Свадебные</p>
+            <p class="cakebox__amount">20 видов</p>
+            <img class="cakebox__image" src="img/cakes/wedding-cake.png">
+          </a>
+        </li>
 
 
-      <li class="tiled-list__item">
-        <a class="cakebox" href="#">
-          <p class="cakebox__type">Детские</p>
-          <p class="cakebox__amount">18 видов</p>
-          <img class="cakebox__image" src="img/cakes/kids-cake.png">
-        </a>
-      </li>
+        <li class="tiled-list__item">
+          <a class="cakebox" href="#">
+            <p class="cakebox__type">Детские</p>
+            <p class="cakebox__amount">18 видов</p>
+            <img class="cakebox__image" src="img/cakes/kids-cake.png">
+          </a>
+        </li>
 
-      <li class="tiled-list__item">
-        <a class="cakebox" href="#">
-          <p class="cakebox__type">Мужчинам</p>
-          <p class="cakebox__amount">12 видов</p>
-          <img class="cakebox__image" src="img/cakes/men-cake.png">
-        </a>
-      </li>
+        <li class="tiled-list__item">
+          <a class="cakebox" href="#">
+            <p class="cakebox__type">Мужчинам</p>
+            <p class="cakebox__amount">12 видов</p>
+            <img class="cakebox__image" src="img/cakes/men-cake.png">
+          </a>
+        </li>
 
-      <li class="tiled-list__item">
-        <a class="cakebox" href="#">
-          <p class="cakebox__type">Женщинам</p>
-          <p class="cakebox__amount">16 видов</p>
-          <img class="cakebox__image" src="img/cakes/women-cake.png">
-        </a>
-      </li>
-    </ul>
+        <li class="tiled-list__item">
+          <a class="cakebox" href="#">
+            <p class="cakebox__type">Женщинам</p>
+            <p class="cakebox__amount">16 видов</p>
+            <img class="cakebox__image" src="img/cakes/women-cake.png">
+          </a>
+        </li>
+      </ul>
+    </div>
   </section>
 
   <!-- ===================== DELIVERY SECTION ===================== -->
-  <section class="base-section delivery-section">
-    <a id="delivery-section-anchor" class="base-section__anchor"></a>
+  <section class="section delivery-section">
+    <a id="delivery-section-anchor" class="section__anchor"></a>
 
-    <div class="delivery-section__content">
-      <h2 class="base-section__title delivery-section__title">Как заказать</h2>
+    <div class="section__content delivery-section__content">
+      <h2 class="section__title delivery-section__title">Как заказать</h2>
 
       <div class="delivery-section__steps-container">
         <ol class="ordered-list">
@@ -207,61 +211,64 @@
   </section>
 
   <!-- ===================== CONTACTS SECTION ===================== -->
-  <section class="base-section contacts-section">
-    <a id="contacts-section-anchor" class="base-section__anchor"></a>
-    <h2 class="base-section__title contacts-section__title">Контакты</h2>
-    <h3 class="base-section__subtitle contacts-section__subtitle">Остались вопросы?</h3>
+  <section class="section contacts-section">
+    <a id="contacts-section-anchor" class="section__anchor"></a>
 
-    <div class="grid">
-      <div class="grid__cell grid__cell--6-12">
-        <form class="form" action="">
-          <p class="form__description">Заполните форму ниже и наш кондитер свяжется с Вами:</p>
-          <input class="form__field" type="text" placeholder="Ваше имя">
-          <input class="form__field" type="email" placeholder="Email адрес">
-          <textarea class="form__field form__field--textarea" type="text" placeholder="Ваш вопрос"></textarea>
-          <div class="form__button-container">
-            <button class="button" type="submit">Отправить</button>
-          </div>
-        </form>
+    <div class="section__content contacts-section__content">
+      <h2 class="section__title contacts-section__title">Контакты</h2>
+      <h3 class="section__subtitle contacts-section__subtitle">Остались вопросы?</h3>
+
+      <div class="grid">
+        <div class="grid__cell grid__cell--6-12">
+          <form class="form" action="">
+            <p class="form__description">Заполните форму ниже и наш кондитер свяжется с Вами:</p>
+            <input class="form__field" type="text" placeholder="Ваше имя">
+            <input class="form__field" type="email" placeholder="Email адрес">
+            <textarea class="form__field form__field--textarea" type="text" placeholder="Ваш вопрос"></textarea>
+            <div class="form__button-container">
+              <button class="button" type="submit">Отправить</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="grid__cell grid__cell--6-12">
+          <ul class="contacts">
+            <li class="contacts__item">
+              <p>Или позвоните по телефону:<br>
+                <a class="phone" href="tel:+79068999296">+7 906 899 92 96</a>
+              </p>
+            </li>
+
+            <li class="contacts__item">
+              <p>Наша почта: <a href="mailto:bakerybypavel@mail.ru">bakerybypavel@mail.ru</a></p>
+            </li>
+
+            <li class="contacts__item">
+              <p>Мы в соцсецях:</p>
+
+              <ul class="social-media social-media--round-button">
+                <li class="social-media__item">
+                  <a href="#">
+                    <img src="img/instagram-icon.svg">
+                  </a>
+                </li>
+
+                <li class="social-media__item">
+                  <a href="#">
+                    <img src="img/vk-icon.svg">
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
-
-      <ul class="grid__cell--6-12">
-        <li class="contacts-section__list-item">
-          <p>Или позвоните по телефону:<br>
-            <a class="phone" href="tel:+79068999296">+7 906 899 92 96</a>
-          </p>
-        </li>
-
-        <li class="contacts-section__list-item">
-          <p>Наша почта: <a href="mailto:bakerybypavel@mail.ru">bakerybypavel@mail.ru</a></p>
-        </li>
-
-        <li class="contacts-section__list-item">
-          <p>Мы в соцсецях:</p>
-
-          <div class="contacts-section__social-media-container">
-            <ul class="social-media social-media--round-button">
-              <li class="social-media__item">
-                <a href="#">
-                  <img src="img/instagram-icon.svg">
-                </a>
-              </li>
-
-              <li class="social-media__item">
-                <a href="#">
-                  <img src="img/vk-icon.svg">
-                </a>
-              </li>
-            </ul>
-          </div>
-        </li>
-      </ul>
     </div>
   </section>
 
   <!-- ===================== FOOTER ===================== -->
-  <footer class="base-section footer">
-    <div class="footer__content">
+  <footer class="section footer">
+    <div class="section__content footer__content">
       <div class="footer__logo-container">
         <a href="#main-section-anchor" class="logo logo--light">Cakes</a>
       </div>
@@ -318,9 +325,7 @@
     </div>
 
     <hr>
-
     <p class="footer__copyright">© 2018 Cakes</p>
-
   </footer>
 </div>
 </body>

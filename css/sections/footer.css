@@ -1,9 +1,10 @@
 .footer {
-    align-items: flex-start;
     background-color: rgb(137, 137, 137);
     color: rgb(255, 255, 255);
+}
+
+.footer__content {
     padding-top: 40px;
-    padding-bottom: 10px;
 }
 
 .footer__logo-container {
@@ -15,19 +16,20 @@
 }
 
 .footer__copyright {
-    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
     color: rgb(173, 173, 173);
+    text-align: center;
     font-family: "Roboto", sans-serif;
     font-size: 12px;
 }
 
 @media only screen and (min-width: 1366px) {
     .footer {
+        flex-direction: column;
         background-color: rgb(232, 232, 232);
         color: rgb(0, 0, 0);
-        padding-top: 0px;
-        padding-bottom: 0px;
     }
 
     .footer__logo-container {
@@ -38,13 +40,11 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width: 100%;
-        margin: 40px 0;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 
     .footer__navigation-container {
-        align-self: flex-end;
-        height: fit-content;
     }
 
     .footer__social-media-container {
@@ -56,7 +56,6 @@
     }
 
     .footer__copyright {
-        margin: 15px 0;
         width: 100%;
         text-align: center;
     }
