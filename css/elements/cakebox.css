@@ -28,14 +28,14 @@
 }
 
 .cakebox__image {
-    margin: auto;
+    height: 250px;
     z-index: -1;
 
     position: absolute;
-    height: 250px;
     top: -50px;
     left: 0;
     right: 0;
+    margin: auto;
 }
 
 @media only screen and (min-width: 1366px) {
@@ -46,7 +46,7 @@
 
     .cakebox__image {
         top: 0;
-        height: 300px;
+        height: 100%;
     }
 
     .cakebox--large {
@@ -54,7 +54,10 @@
     }
 
     .cakebox--large .cakebox__image {
-        height: 100%;
-        left: -20px
+        height: unset;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        margin: auto;
     }
 }
