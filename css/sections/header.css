@@ -54,6 +54,7 @@
     .header__content {
         justify-content: initial;
         padding: 60px 73px;
+        width: 1366px;
         height: auto;
     }
 

@@ -28,6 +28,7 @@
 @media only screen and (min-width: 1366px) {
     .footer {
         flex-direction: column;
+        align-items: center;
         background-color: rgb(232, 232, 232);
         color: rgb(0, 0, 0);
     }
@@ -42,9 +43,7 @@
         justify-content: space-between;
         padding-top: 30px;
         padding-bottom: 30px;
-    }
-
-    .footer__navigation-container {
+        width: 1366px;
     }
 
     .footer__social-media-container {
@@ -53,10 +52,5 @@
 
     .footer__phone-container {
         display: none;
-    }
-
-    .footer__copyright {
-        width: 100%;
-        text-align: center;
     }
 }
