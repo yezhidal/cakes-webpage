@@ -42,10 +42,11 @@
     .cakebox {
         padding: 33px 50px;
         height: 300px;
+        box-shadow: 0 0 15px rgb(253, 226, 226);
     }
 
     .cakebox__type {
-        margin-bottom: 7px        ;
+        margin-bottom: 7px;
         font-size: 23px;
     }
 
