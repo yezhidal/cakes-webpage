@@ -11,10 +11,11 @@
 @media only screen and (min-width: 1366px) {
     .cakes-section__content {
         padding-top: 0;
-        padding-bottom: 100px;
+        padding-bottom: 90px;
     }
 
     .cakes-section__title {
+        text-align: start;
         margin-bottom: 70px;
     }
 }

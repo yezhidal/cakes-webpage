@@ -16,7 +16,15 @@
 }
 
 @media only screen and (min-width: 1366px) {
+    .contacts {
+        font-size: 20px;
+    }
+
     .contacts__item {
-        margin-bottom: 25px;
+        margin-bottom: 30px;
+    }
+
+    .contacts__social-media-container {
+        margin-top: 25px;
     }
 }

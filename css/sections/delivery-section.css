@@ -15,20 +15,21 @@
 }
 
 @media only screen and (min-width: 1366px) {
-    .delivery-section__content {
-        padding-top: 130px;
-        padding-left: 750px;
-        padding-bottom: 180px;
-    }
-
     .delivery-section {
         color: rgb(255, 255, 255);
-        background-size: 800px;
+        background-size: 850px;
         background-position: bottom -150px left;
     }
 
+    .delivery-section__content {
+        padding-top: 115px;
+        padding-left: 825px;
+        padding-bottom: 165px;
+    }
+
     .delivery-section__title {
-        margin-bottom: 30px;
+        text-align: start;
+        margin-bottom: 45px;
         color: rgb(255, 255, 255);
     }
 }

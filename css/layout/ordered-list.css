@@ -24,12 +24,13 @@
 
 @media only screen and (min-width: 1366px) {
     .ordered-list__item::before {
+        top: -20px;
         margin-right: 20px;
         font-size: 64.25px;
     }
 
     .ordered-list__item {
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 }
 

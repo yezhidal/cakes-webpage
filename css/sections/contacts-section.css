@@ -20,12 +20,12 @@
     .contacts-section {
         background-image: url("../../img/contacts.png");
         background-repeat: no-repeat;
-        background-size: 800px;
-        background-position: bottom 0 right -50px;
+        background-size: 950px;
+        background-position: bottom 0 right -65px;
     }
 
     .contacts-section__content {
-        padding-top: 80px;
+        padding-top: 75px;
         padding-bottom: 300px;
     }
 
@@ -35,7 +35,7 @@
     }
 
     .contacts-section__subtitle {
-        margin-bottom: 25px;
+        margin-bottom: 15px;
     }
 
     .contacts-section__form-container {

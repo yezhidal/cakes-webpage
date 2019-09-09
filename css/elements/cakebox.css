@@ -45,7 +45,16 @@
 @media only screen and (min-width: 1366px) {
     .cakebox {
         height: 300px;
-        padding: 50px;
+        padding: 33px 50px;
+    }
+
+    .cakebox__type {
+        font-size: 23px;
+        margin-bottom: 7px
+    }
+
+    .cakebox__amount {
+        font-size: 18px;
     }
 
     .cakebox__image {
@@ -54,7 +63,7 @@
     }
 
     .cakebox--large {
-        height: 635px;
+        height: 645px;
     }
 
     .cakebox--large .cakebox__image {

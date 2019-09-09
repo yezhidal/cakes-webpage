@@ -34,15 +34,17 @@
 
     .navigation__item {
         margin-bottom: 0;
-        font-size: 14px;
+        margin-right: 8px;
     }
 
     .navigation__link {
         padding: 20px;
+        font-size: 15px;
     }
 
     .navigation--dropdown .navigation__link {
         line-height: 1em;
+        font-size: 13px;
     }
     .navigation--dropdown .navigation__link:hover {
         color: rgb(245, 31, 94);

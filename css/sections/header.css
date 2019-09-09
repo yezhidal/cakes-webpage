@@ -44,14 +44,18 @@
     }
 
     .header__logo-container {
+        margin-right: 5px;
         font-size: 23.24px;
+        letter-spacing: 1px;
     }
 
     .header__dropdown-container {
+        align-self: flex-end;
         flex-grow: 2;
     }
 
     .header__phone-container {
         display: block;
+        align-self: flex-end;
     }
 }

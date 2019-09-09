@@ -19,8 +19,15 @@
         display: flex;
     }
 
+    .infobox__icon {
+        width: 60px;
+    }
+    
+    .infobox__text {
+        align-self: flex-end;
+    }
+
     .infobox__item {
-        margin-right: 20px;
         margin-bottom: 0;
     }
     .infobox__item:last-of-type {

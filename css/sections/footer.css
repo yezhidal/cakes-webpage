@@ -44,13 +44,18 @@
     .footer__content {
         display: flex;
         justify-content: space-between;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
         width: 1366px;
     }
 
     .footer__logo-container {
         margin-bottom: 0;
+    }
+
+    .footer__phone-container {
+        display: none;
     }
 
     .footer__social-media-container {
@@ -61,7 +66,7 @@
         width: 1226px;
     }
 
-    .footer__phone-container {
-        display: none;
+    .footer__copyright {
+        padding: 20px 0;
     }
 }

@@ -17,10 +17,10 @@
 @media only screen and (min-width: 1366px) {
     .page {
         background-size:
-            800px,
-            250px;
+            950px,
+            315px;
         background-position:
-            top 100px right -100px,
-            top 100px right 700px;
+            top 105px right -175px,
+            top 125px right 690px;
     }
 }
