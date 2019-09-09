@@ -20,15 +20,14 @@
 }
 
 .section__title {
-    font-family: "Playfair Display", serif;
+    font-family: "Playfair Display";
     font-weight: bold;
-    font-size: 26px;
+    font-size: 24px;
     color: rgb(45, 40, 41);
 }
 
 .section__subtitle {
     font-family: "IntroScriptR", cursive;
-    font-style: italic;
     font-size: 22px;
     color: rgb(50, 49, 61);
 }

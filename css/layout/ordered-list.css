@@ -4,6 +4,8 @@
 }
 
 .ordered-list__item::before {
+    position: relative;
+    top: -10px;
     content: counter(step-counter);
     font-family: "Playfair Display", serif;
     font-weight: bold;
@@ -13,7 +15,7 @@
 .ordered-list__item {
     display: flex;
     counter-increment: step-counter;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
 
 .ordered-list__item:last-of-type {

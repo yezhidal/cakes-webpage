@@ -6,12 +6,12 @@
 }
 
 .delivery-section__content {
-    padding: 30px 40px 165px 40px;
+    padding: 30px 40px 155px;
 }
 
 .delivery-section__title {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 36px;
 }
 
 @media only screen and (min-width: 1366px) {

@@ -1,5 +1,5 @@
 .contacts-section__content {
-    padding-top: 40px;
+    padding-top: 38px;
     padding-bottom: 50px;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .contacts-section__form-container {
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 @media only screen and (min-width: 1366px) {

@@ -1,10 +1,3 @@
-.form__button-container {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    width: 180px;
-}
-
 .form__description {
     margin-bottom: 10px;
     font-family: "Circe" sans-serif;
@@ -28,6 +21,14 @@
     font-size: 14px;
     color: rgb(204, 204, 204);
 }
+
+.form__button-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 180px;
+}
+
 
 @media only screen and (min-width: 1366px) {
     .form {

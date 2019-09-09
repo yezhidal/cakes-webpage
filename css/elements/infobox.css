@@ -1,6 +1,6 @@
 .infobox__item {
     display: flex;
-    margin-bottom: 15px;
+    margin-bottom: 13px;
 }
 
 .infobox__item:last-of-type {
@@ -8,6 +8,7 @@
 }
 
 .infobox__text {
+    font-family: "Circe" sans-serif;
     font-size: 14px;
     margin-left: 10px;
     line-height: 17px;

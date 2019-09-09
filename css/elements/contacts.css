@@ -1,5 +1,10 @@
+.contacts {
+    font-family: "Circe" sans-serif;
+    font-size: 14px;
+}
+
 .contacts__item {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .contacts__item:last-of-type {
