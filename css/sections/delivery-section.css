@@ -1,8 +1,8 @@
 .delivery-section {
     background-image: url("../../img/delivery.png");
-    background-repeat: no-repeat;
-    background-size: 250px;
     background-position: bottom -70px center;
+    background-size: 250px;
+    background-repeat: no-repeat;
 }
 
 .delivery-section__content {
@@ -10,26 +10,26 @@
 }
 
 .delivery-section__title {
-    text-align: center;
     margin-bottom: 36px;
+    text-align: center;
 }
 
 @media only screen and (min-width: 1366px) {
     .delivery-section {
-        color: rgb(255, 255, 255);
-        background-size: 850px;
         background-position: bottom -150px left;
+        background-size: 850px;
+        color: rgb(255, 255, 255);
     }
 
     .delivery-section__content {
         padding-top: 115px;
-        padding-left: 825px;
         padding-bottom: 165px;
+        padding-left: 825px;
     }
 
     .delivery-section__title {
-        text-align: start;
         margin-bottom: 45px;
         color: rgb(255, 255, 255);
+        text-align: start;
     }
 }

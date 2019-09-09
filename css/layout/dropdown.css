@@ -1,6 +1,6 @@
 .dropdown__trigger {
-    height: 15px;
     width: 18px;
+    height: 15px;
     background-color: rgb(255, 255, 255);
     background-image: url("../../img/menu.png");
 }
@@ -11,10 +11,10 @@
 }
 
 .dropdown__content {
-    display: none;
     position: fixed;
     top: 40px;
     left: 0;
+    display: none;
 }
 
 @media only screen and (min-width: 1366px) {
@@ -23,8 +23,7 @@
     }
 
     .dropdown__content {
-        display: block;
         position: initial;
+        display: block;
     }
-
 }

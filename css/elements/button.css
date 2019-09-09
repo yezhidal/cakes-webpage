@@ -2,15 +2,12 @@
     width: 100%;
     height: 50px;
     border-radius: 25px;
-
-    cursor: pointer;
-
     background-color: rgb(245, 0, 73);
     color: rgb(255, 255, 255);
     text-transform: uppercase;
-
-    font-family: "Circe", sans-serif;
     font-size: 13px;
+    font-family: "Circe", sans-serif;
+    cursor: pointer;
 }
 
 .button:hover {

@@ -13,9 +13,9 @@
 }
 
 .tiled-list__item:nth-of-type(6n + 4) {
-    margin-top: 10px;
-    margin-bottom: 0px;
     order: 1;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 
 @media only screen and (min-width: 1366px) {

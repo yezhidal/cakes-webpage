@@ -8,9 +8,9 @@
 }
 
 .infobox__text {
-    font-family: "Circe" sans-serif;
-    font-size: 14px;
     margin-left: 10px;
+    font-size: 14px;
+    font-family: "Circe" sans-serif;
     line-height: 17px;
 }
 
@@ -22,7 +22,7 @@
     .infobox__icon {
         width: 60px;
     }
-    
+
     .infobox__text {
         align-self: flex-end;
     }

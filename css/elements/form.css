@@ -5,10 +5,10 @@
 
 .form__field {
     box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 10px;
     width: 100%;
     height: 50px;
-    padding: 10px;
-    margin-bottom: 10px;
     border-radius: 3px;
 }
 
@@ -17,15 +17,15 @@
 }
 
 .form__field::placeholder {
-    font-family: "Circe", sans-serif;
-    font-size: 14px;
     color: rgb(204, 204, 204);
+    font-size: 14px;
+    font-family: "Circe", sans-serif;
 }
 
 .form__button-container {
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
     width: 180px;
 }
 
@@ -37,22 +37,22 @@
 
     .form__description {
         margin-bottom: 50px;
-        font-family: "Circe" sans-serif;
         font-size: 20px;
+        font-family: "Circe" sans-serif;
     }
 
     .form__field {
-        height: 1em;
-        padding: 0;
         margin-bottom: 30px;
+        padding: 0;
+        height: 1em;
         border-bottom: 1px solid rgb(201, 188, 187);
         background-color: transparent;
     }
 
     .form__button-container {
-        margin-left: 0;
-        margin-right: 0;
         margin-top: 80px;
+        margin-right: 0;
+        margin-left: 0;
         width: 185px;
     }
 }

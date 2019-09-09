@@ -4,8 +4,8 @@
 }
 
 .contacts-section__title {
-    text-align: center;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .contacts-section__subtitle {
@@ -19,9 +19,9 @@
 @media only screen and (min-width: 1366px) {
     .contacts-section {
         background-image: url("../../img/contacts.png");
-        background-repeat: no-repeat;
-        background-size: 950px;
         background-position: bottom 0 right -65px;
+        background-size: 950px;
+        background-repeat: no-repeat;
     }
 
     .contacts-section__content {
@@ -30,8 +30,8 @@
     }
 
     .contacts-section__title {
-        text-align: start;
         margin-bottom: 40px;
+        text-align: start;
     }
 
     .contacts-section__subtitle {

@@ -1,6 +1,6 @@
 .logo {
-    font-family: "Playfair Display", serif;
     font-weight: bold;
+    font-family: "Playfair Display", serif;
 }
 
 @media only screen and (min-width: 1366px) {

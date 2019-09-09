@@ -6,20 +6,20 @@
 .ordered-list__item::before {
     position: relative;
     top: -10px;
-    content: counter(step-counter);
-    font-family: "Playfair Display", serif;
-    font-weight: bold;
     margin-right: 10px;
+    content: counter(step-counter);
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
 }
 
 .ordered-list__item {
     display: flex;
-    counter-increment: step-counter;
     margin-bottom: 12px;
+    counter-increment: step-counter;
 }
 
 .ordered-list__item:last-of-type {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 @media only screen and (min-width: 1366px) {

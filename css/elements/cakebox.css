@@ -1,41 +1,37 @@
 .cakebox {
-    display: block;
     position: relative;
     z-index: 0;
+    display: block;
     overflow: hidden;
-
-    height: 120px;
-    padding: 12px;
-
     box-sizing: border-box;
+    padding: 12px;
+    height: 120px;
     background-color: rgb(255, 255, 255);
 }
 
 .cakebox__type {
-    text-overflow: ellipsis;
     overflow: hidden;
-    white-space: nowrap;
-
-    font-family: "Circe", sans-serif;
-    font-size: 14px;
     color: rgb(73, 69, 70);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    font-family: "Circe", sans-serif;
 }
 
 .cakebox__amount {
-    font-family: "Circe", sans-serif;
-    font-size: 10px;
     color: rgb(108, 104, 105);
+    font-size: 10px;
+    font-family: "Circe", sans-serif;
 }
 
 .cakebox__image {
-    height: 250px;
-    z-index: -1;
-
     position: absolute;
     top: -50px;
-    left: 0;
     right: 0;
+    left: 0;
+    z-index: -1;
     margin: auto;
+    height: 250px;
 }
 
 .cakebox:hover .cakebox__image {
@@ -44,13 +40,13 @@
 
 @media only screen and (min-width: 1366px) {
     .cakebox {
-        height: 300px;
         padding: 33px 50px;
+        height: 300px;
     }
 
     .cakebox__type {
+        margin-bottom: 7px        ;
         font-size: 23px;
-        margin-bottom: 7px
     }
 
     .cakebox__amount {
@@ -67,10 +63,10 @@
     }
 
     .cakebox--large .cakebox__image {
-        height: unset;
-        width: 100%;
         top: 0;
         bottom: 0;
         margin: auto;
+        width: 100%;
+        height: unset;
     }
 }

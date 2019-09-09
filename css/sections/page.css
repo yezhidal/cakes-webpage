@@ -1,26 +1,20 @@
 .page {
     min-width: 320px;
     background-color: rgb(251, 235, 234);
-
+    background-image: url("../../img/cake.png"),
+    url("../../img/main.png");
+    background-position: top -175px center,
+    0;
+    background-size: 380px,
+    0;
     background-repeat: no-repeat;
-    background-image:
-        url("../../img/cake.png"),
-        url("../../img/main.png");
-    background-size:
-        380px,
-        0;
-    background-position:
-        top -175px center,
-        0;
 }
 
 @media only screen and (min-width: 1366px) {
     .page {
-        background-size:
-            950px,
-            315px;
-        background-position:
-            top 105px right -175px,
-            top 125px right 690px;
+        background-position: top 105px right -175px,
+        top 125px right 690px;
+        background-size: 950px,
+        315px;
     }
 }

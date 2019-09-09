@@ -4,8 +4,8 @@
 
 .social-media__item {
     margin-right: 35px;
-    fill: rgb(173, 173, 173);
     cursor: pointer;
+    fill: rgb(173, 173, 173);
 }
 .social-media__item:last-of-type {
     margin-right: 0;
@@ -15,16 +15,15 @@
 }
 
 .social-media--round-button .social-media__item {
-    height: 60px;
     width: 60px;
+    height: 60px;
     border-radius: 30px;
-
     background-color: rgb(255, 255, 255);
     fill: rgb(245, 11, 81);
 }
 .social-media--round-button .social-media__item:hover {
-    fill: rgb(245, 11, 81);
     box-shadow: 0 0 5px rgb(252, 172, 189);
+    fill: rgb(245, 11, 81);
 }
 
 @media only screen and (min-width: 1366px) {
