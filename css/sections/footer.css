@@ -9,6 +9,7 @@
 
 .footer__logo-container {
     margin-bottom: 30px;
+    font-size: 28px;
 }
 
 .footer__social-media-container {
@@ -42,16 +43,16 @@
         color: rgb(0, 0, 0);
     }
 
-    .footer__logo-container {
-        margin-bottom: 0;
-    }
-
     .footer__content {
         display: flex;
         justify-content: space-between;
         padding-top: 30px;
         padding-bottom: 30px;
         width: 1366px;
+    }
+
+    .footer__logo-container {
+        margin-bottom: 0;
     }
 
     .footer__social-media-container {

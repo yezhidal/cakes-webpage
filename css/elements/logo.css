@@ -3,28 +3,9 @@
     font-weight: bold;
 }
 
-.logo--dark {
-    color: rgb(0, 0, 0);
-    font-size: 16px;
-}
-
-.logo--light {
-    color: rgb(255, 255, 255);
-    font-size: 28px;
-}
-
 @media only screen and (min-width: 1366px) {
     .logo {
         padding: 20px 20px 20px 0;
-    }
-
-    }
-    .logo--dark {
-        font-size: 23.24px;
-    }
-
-    .logo--light {
-        color: rgb(0, 0, 0);
     }
 }
 
