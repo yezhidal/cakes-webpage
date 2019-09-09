@@ -6,6 +6,6 @@
     src: url("../../fonts/IntroScriptB-H2Base.woff") format("woff");
 }
 @font-face {
-    font-family: "Circe", sans-serif;
+    font-family: "Circe";
     src: url("../../fonts/Circe-Regular.woff") format("woff");
 }

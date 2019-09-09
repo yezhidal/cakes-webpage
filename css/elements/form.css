@@ -1,6 +1,6 @@
 .form__description {
     margin-bottom: 10px;
-    font-family: "Circe" sans-serif;
+    font-family: "Circe";
 }
 
 .form__field {
@@ -38,7 +38,7 @@
     .form__description {
         margin-bottom: 50px;
         font-size: 20px;
-        font-family: "Circe" sans-serif;
+        font-family: "Circe";
     }
 
     .form__field {

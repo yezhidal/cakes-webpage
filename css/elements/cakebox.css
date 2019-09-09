@@ -15,13 +15,13 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     font-size: 14px;
-    font-family: "Circe", sans-serif;
+    font-family: "Circe";
 }
 
 .cakebox__amount {
     color: rgb(108, 104, 105);
     font-size: 10px;
-    font-family: "Circe", sans-serif;
+    font-family: "Circe";
 }
 
 .cakebox__image {
