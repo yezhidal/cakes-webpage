@@ -16,7 +16,7 @@
     overflow: hidden;
     white-space: nowrap;
 
-    font-family: "Playfair Display", sans-serif;
+    font-family: "Playfair Display", serif;
     font-size: 14px;
     color: rgb(73, 69, 70);
 }
@@ -38,7 +38,7 @@
     margin: auto;
 }
 
-.cakebox__image:hover {
+.cakebox:hover .cakebox__image {
     opacity: 0.7;
 }
 

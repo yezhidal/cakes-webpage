@@ -39,10 +39,6 @@
         height: auto;
     }
 
-    .header__logo-container {
-        margin-right: 40px;
-    }
-
     .header__dropdown-container {
         flex-grow: 2;
     }

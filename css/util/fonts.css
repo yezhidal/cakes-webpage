@@ -1,16 +1,11 @@
-@font-face {
-    font-family: 'Playfair Display', serif;
-    src: url('https://fonts.googleapis.com/css?family=Playfair+Display$display=swap');
-}
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 @font-face {
     font-family: 'IntroScriptR';
-    src: url('../fonts/IntroScriptR-H2Base.otf') format('.otf');
+    src: url('../../fonts/IntroScriptB-H2Base.woff') format('woff');
 }
 @font-face {
     font-family: 'Circe', sans-serif;
-    src: url('../fonts/CRC55.otf') format('.otf');
-}
-@font-face {
-    font-family: 'Roboto', sans-serif;
-    src: url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+    src: url('../../fonts/Circe-Regular.woff') format('woff');
 }
