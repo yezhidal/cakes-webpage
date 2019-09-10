@@ -3,13 +3,13 @@
     font-size: 14px;
 }
 
-.navigation--dropdown .navigation__link {
+.navigation--primary .navigation__link {
     width: 100%;
     text-align: center;
     line-height: 40px;
 }
 
-.navigation--dropdown .navigation__item {
+.navigation--primary .navigation__item {
     display: flex;
     margin-bottom: 0;
     width: 100vw;
@@ -20,8 +20,7 @@
     font-size: 12px;
     font-family: "PT Sans Caption", sans-serif;
 }
-
-.navigation--dropdown .navigation__item:last-of-type {
+.navigation--primary .navigation__item:last-of-type {
     border: none;
 }
 
@@ -40,15 +39,14 @@
         font-size: 15px;
     }
 
-    .navigation--dropdown .navigation__link {
+    .navigation--primary .navigation__link {
         font-size: 13px;
         line-height: 1em;
     }
-    .navigation--dropdown .navigation__link:hover {
+    .navigation--primary .navigation__link:hover {
         color: rgb(245, 31, 94);
     }
-
-    .navigation--dropdown .navigation__item {
+    .navigation--primary .navigation__item {
         display: block;
         width: fit-content;
         border: none;
