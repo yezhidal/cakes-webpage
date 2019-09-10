@@ -22,7 +22,10 @@
 }
 
 .section--highlighted {
-    background-color: rgb(227, 53, 61);
+    background-image: linear-gradient(
+        rgb(232, 57, 63),
+        rgb(213, 38, 49)
+    );
     color: rgb(255, 255, 255);
 }
 .section--highlighted .section__title {
