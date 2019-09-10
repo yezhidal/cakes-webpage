@@ -35,6 +35,7 @@
 
     .header__content {
         justify-content: initial;
+        align-items: flex-end;
         padding: 60px 73px;
         width: 1366px;
         height: auto;
@@ -42,17 +43,18 @@
 
     .header__logo-container {
         margin-right: 5px;
-        letter-spacing: 1px;
         font-size: 23.24px;
+        position: relative;
+        top: 4px;
     }
 
     .header__dropdown-container {
-        align-self: flex-end;
         flex-grow: 2;
     }
 
     .header__phone-container {
         display: block;
-        align-self: flex-end;
+        position: relative;
+        top: 4px;
     }
 }
