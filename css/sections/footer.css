@@ -17,12 +17,8 @@
 }
 
 .footer__line {
-    margin-right: auto;
-    margin-left: auto;
-    width: calc(100% - 40px);
     height: 1px;
     background-color: rgb(173, 173, 173);
-    color: rgb(173, 173, 173);
 }
 
 .footer__copyright {
@@ -61,11 +57,8 @@
         margin: 0;
     }
 
-    .footer__line {
-        width: 1226px;
-    }
-
     .footer__copyright {
         padding: 20px 0;
+        text-align: center;
     }
 }
