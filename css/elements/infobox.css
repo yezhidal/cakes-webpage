@@ -7,6 +7,10 @@
     margin-bottom: 0;
 }
 
+.infobox__icon {
+    fill: rgb(245, 0, 73);
+}
+
 .infobox__text {
     margin-left: 10px;
     font-size: 14px;
@@ -17,10 +21,6 @@
 @media only screen and (min-width: 768px) {
     .infobox {
         display: flex;
-    }
-
-    .infobox__icon {
-        width: 60px;
     }
 
     .infobox__text {
