@@ -13,16 +13,14 @@
 }
 
 @media only screen and (min-width: 1366px) {
-    .contacts-section {
+    .contacts-section__content {
+        padding-top: 75px;
+        padding-bottom: 300px;
+
         background-image: url("../../img/contacts.png");
         background-position: bottom 0 right -65px;
         background-size: 950px;
         background-repeat: no-repeat;
-    }
-
-    .contacts-section__content {
-        padding-top: 75px;
-        padding-bottom: 300px;
     }
 
     .contacts-section__title {
