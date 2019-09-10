@@ -12,10 +12,6 @@
     margin-bottom: 10px;
 }
 
-.contacts-section__form-container {
-    margin-bottom: 30px;
-}
-
 @media only screen and (min-width: 1366px) {
     .contacts-section {
         background-image: url("../../img/contacts.png");
@@ -37,9 +33,5 @@
     .contacts-section__subtitle {
         margin-bottom: 15px;
         text-indent: -2.5px;
-    }
-
-    .contacts-section__form-container {
-        margin-bottom: 0;
     }
 }

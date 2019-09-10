@@ -1,14 +1,3 @@
-.section--highlight {
-    background-color: rgb(227, 53, 61);
-    color: rgb(255, 255, 255);
-}
-.section--highlight .section__title {
-    color: rgb(255, 255, 255);
-}
-.section--highlight .section__subtitle {
-    color: rgb(255, 255, 255);
-}
-
 .section__content {
     padding: 0 20px;
     font-family: "Circe", sans-serif;
@@ -30,6 +19,17 @@
     color: rgb(50, 49, 61);
     font-size: 22px;
     font-family: "IntroScriptR", cursive;
+}
+
+.section--highlighted {
+    background-color: rgb(227, 53, 61);
+    color: rgb(255, 255, 255);
+}
+.section--highlighted .section__title {
+    color: rgb(255, 255, 255);
+}
+.section--highlighted .section__subtitle {
+    color: rgb(255, 255, 255);
 }
 
 @media only screen and (min-width: 1366px) {

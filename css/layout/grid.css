@@ -5,12 +5,20 @@
 }
 
 .grid__cell--6-12 {
-    width: 50%;
+    width: calc(50% - 60px);
+    margin-right: 60px;
 }
-
+.grid__cell--6-12:last-of-type {
+    margin-right: 0;
+}
 
 @media only screen and (max-width: 1365px) {
     .grid__cell--6-12 {
         width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .grid__cell--6-12:last-of-type {
+        margin-bottom: 0;
     }
 }
