@@ -1,6 +1,7 @@
 .dropdown__trigger {
     width: 20px;
     height: 20px;
+    cursor: pointer;
     background-color: rgb(255, 255, 255);
 }
 
