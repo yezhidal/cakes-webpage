@@ -57,4 +57,23 @@
         top: 0;
         height: 100%;
     }
+
+    .cakebox__arrow {
+        position: absolute;
+        background: url(../../svg/arrow.svg) no-repeat;
+        right: 70px;
+        bottom: 40px;
+        width: 17px;
+        height: 12px;
+    }
+
+    .cakebox:hover .cakebox__arrow::before {
+        content: "Смотреть";
+        position: relative;
+        right: 105px;
+        bottom: 3px;
+        color: rgb(73, 69, 70);
+        font-size: 20px;
+        font-family: "Circe";
+    }
 }
