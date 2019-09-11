@@ -45,7 +45,7 @@
         margin-right: 5px;
         font-size: 23.24px;
         position: relative;
-        top: 4px;
+        top: 2px;
     }
 
     .header__dropdown-container {
@@ -54,7 +54,5 @@
 
     .header__phone-container {
         display: block;
-        position: relative;
-        top: 4px;
     }
 }

@@ -25,17 +25,20 @@
     width: 60px;
     height: 60px;
     border-radius: 30px;
-    background-color: rgb(255, 255, 255);
+    background-color: hsl(0, 0%, 100%);
 }
 .social-media--round-button .social-media__item-link {
     width: 60px;
     height: 60px;
 }
 .social-media--round-button .social-media__item-icon {
-    fill: rgb(245, 0, 73);
+    fill: hsl(342, 100%, 48%);
 }
 .social-media--round-button .social-media__item:hover {
-    box-shadow: 0 0 5px rgb(252, 172, 189);
+    box-shadow: 0 0 5px hsl(347, 93%, 83%);
+}
+.social-media--round-button .social-media__item:active {
+    box-shadow: 0 0 10px hsl(347, 90%, 80%);
 }
 
 @media only screen and (min-width: 1366px) {
