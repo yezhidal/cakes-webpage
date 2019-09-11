@@ -44,6 +44,7 @@
     }
 
     .form__button-container {
+        text-align: start;
         margin-top: 80px;
         margin-right: 0;
         margin-left: 0;
