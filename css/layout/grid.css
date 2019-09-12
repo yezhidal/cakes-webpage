@@ -24,7 +24,7 @@
 }
 
 
-@media only screen and (min-width: 1336px) {
+@media only screen and (min-width: 1366px) {
     .grid__item--large-6 {
         width: calc(50% - 40px);
         margin-right: 40px;
