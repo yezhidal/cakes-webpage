@@ -92,7 +92,7 @@
 
     .footer__social-media-container {
         margin: 0;
-        order: initial;
+        order: 0;
     }
 
     .footer__line {

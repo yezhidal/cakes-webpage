@@ -17,10 +17,12 @@
 }
 
 .header__logo-container {
+    color: hsl(348, 6%, 17%);
     font-size: 16px;
 }
 
 .header__phone-container {
+    color: hsl(348, 6%, 17%);
     display: none;
 }
 
@@ -34,7 +36,6 @@
     }
 
     .header__logo-container {
-        color: rgb(45, 40 41);
         font-size: 20px;
         margin-right: 30px;
     }

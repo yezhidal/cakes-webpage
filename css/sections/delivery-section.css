@@ -25,7 +25,7 @@
     }
 
     .delivery-section__title {
-        text-align: start;
+        text-align: left;
         margin-bottom: 20px;
     }
 }
@@ -43,6 +43,6 @@
 
     .delivery-section__title {
         margin-bottom: 45px;
-        text-align: start;
+        text-align: left;
     }
 }

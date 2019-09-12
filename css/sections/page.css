@@ -1,8 +1,5 @@
 .page {
     min-width: 320px;
+    overflow: hidden;
     background-color: rgb(251, 235, 234);
-    overflow-y: hidden;
-}
-
-@media only screen and (min-width: 1366px) {
 }
