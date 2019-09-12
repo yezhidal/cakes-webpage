@@ -24,10 +24,28 @@
     display: none;
 }
 
+@media only screen and (min-width: 768px) {
+    .header__dropdown-container {
+        flex-grow: 2;
+    }
+
+    .header__content {
+        height: 60px;
+    }
+
+    .header__logo-container {
+        margin-right: 15px;
+    }
+
+    .header__phone-container {
+        display: block;
+        font-weight: bold;
+    }
+}
 
 @media only screen and (min-width: 1366px) {
     .header {
-        position: initial;
+        position: static;
         z-index: 0;
         height: auto;
         background-color: transparent;
@@ -46,13 +64,5 @@
         font-size: 23.24px;
         position: relative;
         top: 2px;
-    }
-
-    .header__dropdown-container {
-        flex-grow: 2;
-    }
-
-    .header__phone-container {
-        display: block;
     }
 }

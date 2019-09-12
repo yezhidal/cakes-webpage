@@ -17,7 +17,6 @@
     display: table-cell;
     position: relative;
     top: -10px;
-    padding-right: 20px;
     content: counter(step-counter);
     font-weight: bold;
     font-family: "Playfair Display", serif;
@@ -26,6 +25,7 @@
 .ordered-list__item-content {
     display: table-cell;
     vertical-align: top;
+    padding-left: 20px;
 }
 
 @media only screen and (min-width: 1366px) {

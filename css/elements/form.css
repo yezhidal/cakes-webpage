@@ -28,6 +28,13 @@
 }
 
 
+@media only screen and (min-width: 768px) {
+    .form__button-container {
+        text-align: start;
+    }
+}
+
+
 @media only screen and (min-width: 1366px) {
     .form__description {
         margin-bottom: 50px;
@@ -46,9 +53,6 @@
     }
 
     .form__button-container {
-        text-align: start;
         margin-top: 80px;
-        margin-right: 0;
-        margin-left: 0;
     }
 }

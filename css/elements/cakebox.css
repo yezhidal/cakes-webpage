@@ -41,9 +41,10 @@
     opacity: 0.6;
 }
 
-@media only screen and (min-width: 1366px) {
+
+@media only screen and (min-width: 768px) {
     .cakebox {
-        padding: 33px 50px;
+        padding: 30px;
         box-shadow: 0 0 16px hsl(0, 51%, 90%);
     }
 
@@ -59,6 +60,26 @@
     .cakebox__image {
         top: 0;
         height: 100%;
+    }
+
+    .cakebox:hover {
+        box-shadow: 0 0 18px hsl(0, 52%, 78%);
+    }
+}
+
+
+@media only screen and (min-width: 1366px) {
+    .cakebox {
+        padding: 33px 50px;
+    }
+
+    .cakebox__type {
+        margin-bottom: 7px;
+        font-size: 23px;
+    }
+
+    .cakebox__amount {
+        font-size: 18px;
     }
 
     .cakebox__arrow {
@@ -78,9 +99,5 @@
         color: hsl(345, 3%, 28%);
         font-size: 20px;
         font-family: "Circe";
-    }
-
-    .cakebox:hover {
-        box-shadow: 0 0 18px hsl(0, 52%, 78%);
     }
 }

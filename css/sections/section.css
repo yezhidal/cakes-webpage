@@ -1,6 +1,6 @@
 .section__content {
     padding: 0 20px;
-    font-family: "Circe", sans-serif;
+    font-family: "Circe";
 }
 
 .section__anchor {
@@ -35,6 +35,15 @@
     color: rgb(255, 255, 255);
 }
 
+
+@media only screen and (min-width: 768px) {
+    .section__content {
+        box-sizing: border-box;
+        padding: 0 45px;
+    }
+}
+
+
 @media only screen and (min-width: 1366px) {
     .section {
         display: flex;
@@ -42,7 +51,6 @@
     }
 
     .section__content {
-        box-sizing: border-box;
         padding: 0 70px;
         width: 1366px;
     }

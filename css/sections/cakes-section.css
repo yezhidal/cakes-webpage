@@ -8,6 +8,17 @@
     text-align: center;
 }
 
+@media only screen and (min-width: 768px) {
+    .cakes-section__content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .cakes-section__title {
+        text-align: start;
+    }
+}
+
 @media only screen and (min-width: 1366px) {
     .cakes-section__content {
         padding-top: 0;
@@ -16,6 +27,5 @@
 
     .cakes-section__title {
         margin-bottom: 70px;
-        text-align: start;
     }
 }

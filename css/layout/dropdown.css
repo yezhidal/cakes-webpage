@@ -5,17 +5,26 @@
     background-color: rgb(255, 255, 255);
 }
 
+.dropdown__content {
+    display: none;
+    width: 100%;
+    position: fixed;
+    top: 40px;
+    left: 0;
+}
+
 .dropdown__trigger:focus + .dropdown__content,
 .dropdown__content:hover {
     display: block;
 }
 
-.dropdown__content {
-    position: fixed;
-    top: 40px;
-    left: 0;
-    display: none;
+@media only screen and (min-width: 768px) {
+    .dropdown__content {
+        width: 300px;
+        top: 60px;
+    }
 }
+
 
 @media only screen and (min-width: 1366px) {
     .dropdown__trigger {
@@ -23,7 +32,8 @@
     }
 
     .dropdown__content {
-        position: initial;
+        position: static;
         display: block;
+        width: 100%;
     }
 }
