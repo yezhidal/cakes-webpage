@@ -15,22 +15,23 @@
 
 @media only screen and (min-width: 768px) {
     .contacts-section__content {
-        padding-top: 75px;
-        padding-bottom: 100px;
+        padding-top: 45px;
+        padding-bottom: 78px;
 
         background-image: url("../../img/contacts.png");
-        background-position: bottom right -165px;
-        background-size: 650px;
+        background-position: bottom right -145px;
+        background-size: 600px;
         background-repeat: no-repeat;
     }
 
     .contacts-section__title {
-        margin-bottom: 40px;
+        margin-bottom: 10px;
         text-align: start;
     }
 
     .contacts-section__subtitle {
-        text-indent: -2.5px;
+        margin-bottom: 20px;
+        text-indent: -1px;
     }
 }
 

@@ -15,15 +15,18 @@
 
 @media only screen and (min-width: 768px) {
     .delivery-section__content {
-        padding-left: 40%;
+        padding-top: 50px;
+        padding-left: 43%;
+        padding-right: 70px;
         padding-bottom: 50px;
 
-        background-position: bottom -150px left -250px;
-        background-size: 600px;
+        background-position: bottom -130px left -190px;
+        background-size: 550px;
     }
 
     .delivery-section__title {
         text-align: start;
+        margin-bottom: 20px;
     }
 }
 

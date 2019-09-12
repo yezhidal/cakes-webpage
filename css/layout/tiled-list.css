@@ -30,13 +30,13 @@
     .tiled-list__item {
         margin-bottom: 20px;
         width: 40%;
-        height: 180px;
+        height: 185px;
     }
 
     .tiled-list__item:nth-of-type(6n + 1),
     .tiled-list__item:nth-of-type(6n + 4) {
         width: calc(60% - 20px);
-        height: 380px;
+        height: 390px;
     }
     .tiled-list__item:nth-of-type(6n + 1) {
         margin-right: 20px;

@@ -34,7 +34,9 @@
     }
 
     .header__logo-container {
-        margin-right: 15px;
+        color: rgb(45, 40 41);
+        font-size: 20px;
+        margin-right: 30px;
     }
 
     .header__phone-container {

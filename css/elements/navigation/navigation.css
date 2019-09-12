@@ -11,6 +11,15 @@
     .navigation__menu {
         display: flex;
     }
+
+    .navigation__link {
+        padding: 20px;
+        font-size: 12px;
+    }
+
+    .navigation__item {
+        margin-bottom: 0;
+    }
 }
 
 
@@ -21,7 +30,6 @@
     }
 
     .navigation__link {
-        padding: 20px;
         font-size: 15px;
     }
     .navigation__link:hover {

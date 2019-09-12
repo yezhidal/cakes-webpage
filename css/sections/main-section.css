@@ -42,12 +42,15 @@
     .main-section__content {
         align-items: flex-start;
 
+        padding-top: 160px;
+        padding-bottom: 115px;
+
         background-position:
-            top 80px right -125px,
-            top 80px right 340px;
+            top 75px right -130px,
+            top 88px right 372px;
         background-size:
-            550px,
-            250px;
+            560px,
+            210px;
     }
 
     .main-section__anchor {
@@ -55,12 +58,20 @@
     }
 
     .main-section__title {
+        font-size: 60px;
+        line-height: 57px;
         text-align: start;
+        margin-bottom: 22px;
+    }
+
+    .main-section__subtitle {
+        font-size: 36px;
+        margin-bottom: 58px;
     }
 
     .main-section__button-container {
         order: 1;
-        margin-bottom: 125px;
+        margin-bottom: 145px;
     }
 
     .main-section__infobox-container {

@@ -1,0 +1,30 @@
+.social-media {
+    display: flex;
+    align-items: center;
+}
+
+.social-media__item {
+    margin-right: 35px;
+    cursor: pointer;
+}
+.social-media__item:last-of-type {
+    margin-right: 0;
+}
+
+.social-media__item-link {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .social-media__item {
+        margin-right: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 1366px) {
+}

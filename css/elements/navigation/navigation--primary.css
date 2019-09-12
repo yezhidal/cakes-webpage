@@ -31,6 +31,10 @@
     .navigation--primary .navigation__menu {
         display: block;
     }
+
+    .navigation--primary .navigation__link {
+        padding: 0;
+    }
 }
 
 
@@ -50,6 +54,7 @@
     }
 
     .navigation--primary .navigation__link {
+        padding: 20px;
         font-size: 13px;
         line-height: 1em;
     }

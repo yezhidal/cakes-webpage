@@ -12,10 +12,12 @@
     .cakes-section__content {
         padding-left: 20px;
         padding-right: 20px;
+        padding-bottom: 55px;
     }
 
     .cakes-section__title {
         text-align: start;
+        margin-bottom: 40px;
     }
 }
 
