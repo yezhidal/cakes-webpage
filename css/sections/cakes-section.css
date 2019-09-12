@@ -21,8 +21,7 @@
 
 @media only screen and (min-width: 1366px) {
     .cakes-section__content {
-        padding-top: 0;
-        padding-bottom: 90px;
+        padding: 0 70px 90px;
     }
 
     .cakes-section__title {

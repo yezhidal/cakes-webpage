@@ -72,15 +72,17 @@
 
 @media only screen and (min-width: 1366px) {
     .main-section__content {
+        width: 1541px;
         margin-top: -35px;
         margin-bottom: -65px;
+        margin-right: -175px;
         padding-top: 125px;
-        padding-right: 775px;
+        padding-right: 950px;
         padding-bottom: 315px;
 
         background-position:
-            top right -175px,
-            top right 690px;
+            top right,
+            top right 865px;
         background-size:
             950px,
             315px;

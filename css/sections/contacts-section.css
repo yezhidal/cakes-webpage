@@ -37,10 +37,13 @@
 
 @media only screen and (min-width: 1366px) {
     .contacts-section__content {
+        width: 1431px;
+        padding-right: 135px;
         padding-top: 75px;
         padding-bottom: 300px;
+        margin-right: -65px;
 
-        background-position: bottom right -65px;
+        background-position: bottom right;
         background-size: 950px;
     }
 
