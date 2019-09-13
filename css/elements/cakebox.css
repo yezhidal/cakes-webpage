@@ -84,18 +84,17 @@
 
     .cakebox__arrow {
         position: absolute;
-        background: url(../../svg/arrow.svg) no-repeat;
-        right: 70px;
+        background: url(../../svg/right-arrow.svg) no-repeat;
+        right: 60px;
         bottom: 40px;
-        width: 17px;
-        height: 12px;
+        width: 20px;
+        height: 20px;
     }
 
     .cakebox:hover .cakebox__arrow::before {
         content: "Смотреть";
         position: relative;
         right: 105px;
-        bottom: 3px;
         color: hsl(345, 3%, 28%);
         font-size: 20px;
         font-family: "Circe";

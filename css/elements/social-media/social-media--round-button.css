@@ -12,8 +12,10 @@
     width: 60px;
     height: 60px;
 }
-.social-media--round-button .social-media__item-icon {
+.social-media--round-button .social-media__icon {
     fill: hsl(342, 100%, 48%);
+    width: 35px;
+    height: 35px;
 }
 .social-media--round-button .social-media__item:hover {
     box-shadow: 0 0 5px hsl(347, 93%, 83%);

@@ -18,6 +18,15 @@
     height: 30px;
 }
 
+.social-media__icon {
+    height: 30px;
+    width: 30px;
+    fill: rgb(173, 173, 173);
+}
+.social-media__item:hover .social-media__icon {
+    fill: rgb(216, 216, 216);
+}
+
 
 @media only screen and (min-width: 768px) {
     .social-media__item {
@@ -27,4 +36,13 @@
 
 
 @media only screen and (min-width: 1366px) {
+    .social-media__icon {
+        height: 30px;
+        width: 30px;
+        fill: rgb(105, 105, 105);
+    }
+
+    .social-media__item:hover .social-media__icon {
+        fill: rgb(163, 163, 163);
+    }
 }
