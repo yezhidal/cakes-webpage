@@ -5,6 +5,7 @@
 
 .footer__content {
     padding-top: 45px;
+    padding-bottom: 10px
 }
 
 .footer__logo-container {
@@ -12,24 +13,21 @@
     font-size: 28px;
 }
 
-.footer__social-media-container {
-    margin: 30px 0;
-}
-
 .footer__line {
     height: 1px;
     width: 100%;
     background-color: rgb(173, 173, 173);
+    margin: 30px 0 10px 0;
 }
 
 .footer__copyright {
-    padding: 10px 0px;
     color: rgb(173, 173, 173);
     font-size: 12px;
     font-family: "Roboto", sans-serif;
 }
 
 .footer__phone-container {
+    margin-bottom: 30px;
     font-size: 14px;
 }
 
@@ -83,7 +81,7 @@
     }
 
     .footer__logo-container {
-        margin-bottom: 0;
+        margin: 0;
         font-size: 28px;
     }
 

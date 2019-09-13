@@ -13,19 +13,23 @@
     }
 
     .navigation__link {
-        padding: 20px;
+        padding: 20px 0;
         font-size: 12px;
     }
 
     .navigation__item {
         margin-bottom: 0;
+        margin-right: 40px;
+    }
+    .navigation__item:last-of-type {
+        margin-right: 0;
     }
 }
 
 
 @media only screen and (min-width: 1366px) {
     .navigation__item {
-        margin-right: 8px;
+        margin-right: 48px;
         margin-bottom: 0;
     }
 
