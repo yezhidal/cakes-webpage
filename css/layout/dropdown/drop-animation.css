@@ -1,0 +1,26 @@
+.dropdown__trigger:focus + .dropdown__content {
+    animation-name: drop;
+    animation-duration: 375ms;
+}
+
+@keyframes drop {
+    from {
+        top: -400px;
+    }
+
+    to {
+        top: 40px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    @keyframes drop {
+        from {
+            top: -400px;
+        }
+
+        to {
+            top: 60px;
+        }
+    }
+}
