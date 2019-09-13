@@ -1,9 +1,9 @@
 @media only screen and (min-width: 1366px) {
     .tiled-list--wobbling .tiled-list__item:hover {
         animation-name: wobble;
-        animation-duration: 2500ms, 2500ms;
-        animation-timing-function: linear, linear;
-        animation-iteration-count: initial, infinite;
+        animation-duration: 2500ms;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
     }
 
     @keyframes wobble {
