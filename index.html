@@ -44,7 +44,8 @@
   <!-- ===================== LAYOUT ===================== -->
   <link rel="stylesheet" href="css/layout/dropdown.css">
   <link rel="stylesheet" href="css/layout/ordered-list.css">
-  <link rel="stylesheet" href="css/layout/tiled-list.css">
+  <link rel="stylesheet" href="css/layout/tiled-list/tiled-list.css">
+  <link rel="stylesheet" href="css/layout/tiled-list/tiled-list--wobbling.css">
   <link rel="stylesheet" href="css/layout/grid.css">
 
   <!-- ===================== SECTIONS ===================== -->
@@ -56,6 +57,7 @@
   <link rel="stylesheet" href="css/sections/delivery-section.css">
   <link rel="stylesheet" href="css/sections/contacts-section.css">
   <link rel="stylesheet" href="css/sections/footer.css">
+
 
 </head>
 
@@ -152,9 +154,9 @@
     <div class="section__content cakes-section__content">
       <h2 class="section__title cakes-section__title">Наши торты</h2>
     
-      <ul class="tiled-list">
+      <ul class="tiled-list tiled-list--wobbling">
         <li class="tiled-list__item">
-          <a class="cakebox" href="#">
+          <a class="cakebox cakebox--animated" href="#">
             <p class="cakebox__type">Классические</p>
             <p class="cakebox__amount">24 вида</p>
             <img class="cakebox__image" src="img/cakes/classic-cake.png">

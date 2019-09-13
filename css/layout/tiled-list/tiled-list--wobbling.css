@@ -1,0 +1,22 @@
+@media only screen and (min-width: 1366px) {
+    .tiled-list--wobbling .tiled-list__item:hover {
+        animation-name: wobble;
+        animation-duration: 2500ms, 2500ms;
+        animation-timing-function: linear, linear;
+        animation-iteration-count: initial, infinite;
+    }
+
+    @keyframes wobble {
+        25% {
+            transform: rotate(1deg);
+        }
+
+        75% {
+            transform: rotate(-1deg);
+        }
+
+        to {
+            transform: rotate(0deg);
+        }
+    }
+}
