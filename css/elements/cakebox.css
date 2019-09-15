@@ -98,5 +98,18 @@
         color: hsl(345, 3%, 28%);
         font-size: 20px;
         font-family: "Circe";
+
+        animation-name: fade;
+        animation-duration: 375ms;
+    }
+
+    @keyframes fade {
+        from {
+            opacity: 0;
+        }
+        
+        to {
+            opacity: 1;
+        }
     }
 }
