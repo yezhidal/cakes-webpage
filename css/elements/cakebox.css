@@ -71,6 +71,10 @@
 @media only screen and (min-width: 1366px) {
     .cakebox {
         padding: 33px 50px;
+        transition: transform 1000ms;
+    }
+    .cakebox:hover {
+        transform: scale(1.05);
     }
 
     .cakebox__type {
@@ -91,25 +95,17 @@
         height: 20px;
     }
 
-    .cakebox:hover .cakebox__arrow::before {
+    .cakebox__arrow::before {
         content: "Смотреть";
         position: relative;
         right: 105px;
         color: hsl(345, 3%, 28%);
         font-size: 20px;
         font-family: "Circe";
-
-        animation-name: fade;
-        animation-duration: 375ms;
+        opacity: 0;
+        transition: opacity 375ms;
     }
-
-    @keyframes fade {
-        from {
-            opacity: 0;
-        }
-        
-        to {
-            opacity: 1;
-        }
+    .cakebox:hover .cakebox__arrow::before {
+        opacity: 1;
     }
 }
