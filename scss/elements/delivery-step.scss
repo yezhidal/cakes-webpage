@@ -1,0 +1,21 @@
+.delivery-step {
+    &__name {
+        font-family: "Circe";
+        font-weight: bold;
+        margin-bottom: 10px;
+        font-size: 15px;
+
+        @media (min-width: 1366px) {
+            font-size: 21px;
+        }
+    }
+
+    &__text {
+        font-family: "Circe";
+        font-size: 14px;
+
+        @media (min-width: 1366px) {
+            font-size: 20px;
+        }
+    }
+}

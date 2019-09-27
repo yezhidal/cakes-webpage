@@ -1,0 +1,76 @@
+.tiled-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    @media (min-width: 768px) {
+        display: table;
+        clear: both;
+        content: "";
+    }
+
+    &__item {
+        height: 120px;
+        margin-bottom: 10px;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+
+        &:nth-of-type(6n + 4) {
+            order: 1;
+            margin-top: 10px;
+            margin-bottom: 0;
+        }
+
+        @media (min-width: 768px) {
+            margin-bottom: 20px;
+            width: 40%;
+            height: 185px;
+
+            &:nth-of-type(6n + 1),
+            &:nth-of-type(6n + 4) {
+                width: calc(60% - 20px);
+                height: 390px;
+            }
+
+            &:nth-of-type(6n + 1) {
+                margin-right: 20px;
+                margin-bottom: 0;
+            }
+            &:nth-of-type(6n + 4) {
+                margin-bottom: 0;
+                margin-top: 0;
+                margin-left: 20px;
+            }
+
+            &:nth-of-type(6n + 1),
+            &:nth-of-type(6n + 2),
+            &:nth-of-type(6n + 3) {
+                float: left;
+            }
+            &:nth-of-type(6n + 4),
+            &:nth-of-type(6n + 5),
+            &:nth-of-type(6n + 6) {
+                float: right;
+            }
+        }
+
+        @media (min-width: 1366px) {
+            margin-bottom: 45px;
+            height: 300px;
+
+            &:nth-of-type(6n + 1),
+            &:nth-of-type(6n + 4) {
+                width: calc(60% - 40px);
+                height: 645px;
+            }
+            &:nth-of-type(6n + 1) {
+                margin-right: 40px;
+            }
+            &:nth-of-type(6n + 4) {
+                margin-left: 40px;
+            }
+        }
+    }
+}

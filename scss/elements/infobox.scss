@@ -1,0 +1,36 @@
+.infobox {
+    @media (min-width: 768px) {
+        display: flex;
+    }
+
+    &__item {
+        display: flex;
+        margin-bottom: 13px;
+        @media (min-width: 768px) {
+            margin-bottom: 0;
+        }
+
+        &:last-of-type {
+            margin-bottom: 0;
+            @media (min-width: 768px) {
+                margin-right: 0;
+            }
+        }
+    }
+
+
+    &__icon {
+        height: 55px;
+        width: 55px;
+        fill: rgb(245, 0, 73);
+    }
+
+    &__text {
+        margin-left: 10px;
+        align-self: center;
+        font-size: 14px;
+        font-family: "Circe";
+        line-height: 17px;
+        width: 200px;
+    }
+}

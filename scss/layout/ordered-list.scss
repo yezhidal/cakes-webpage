@@ -1,0 +1,35 @@
+.ordered-list {
+    display: table;
+    counter-reset: step-counter;
+    border-spacing:0 20px;
+    font-size: 35px;
+
+    &__item {
+        display: table-row;
+        counter-increment: step-counter;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+
+        &::before {
+            display: table-cell;
+            position: relative;
+            top: -10px;
+            content: counter(step-counter);
+            font-weight: bold;
+            font-family: "Playfair Display", serif;
+
+            @media (min-width: 1366px) {
+                top: -20px;
+                font-size: 64.25px;
+            }
+        }
+    }
+
+    &__item-content {
+        display: table-cell;
+        vertical-align: top;
+        padding-left: 20px;
+    }
+}

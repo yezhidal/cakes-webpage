@@ -1,0 +1,43 @@
+.navigation {
+    &__item {
+        margin-bottom: 17px;
+        font-size: 14px;
+
+        @media (min-width: 768px) {
+            margin-bottom: 0;
+            margin-right: 40px;
+
+            &:last-of-type {
+                margin-right: 0;
+            }
+        }
+
+        @media (min-width: 1366px) {
+            margin-right: 48px;
+            margin-bottom: 0;
+        }
+    }
+
+
+    &__link {
+        &:hover {
+            opacity: 0.7;
+        }
+
+        @media (min-width: 768px) {
+            padding: 20px 0;
+            font-size: 12px;
+        }
+
+        @media (min-width: 1366px) {
+            font-size: 15px;
+        }
+    }
+
+
+    &__menu {
+        @media (min-width: 768px) {
+            display: flex;
+        }
+    }
+}

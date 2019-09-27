@@ -1,0 +1,9 @@
+.mail {
+    @media (min-width: 768px) {
+        padding: 10px 0;
+    }
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

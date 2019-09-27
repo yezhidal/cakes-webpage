@@ -1,0 +1,29 @@
+.contacts {
+    font-size: 14px;
+    font-family: "Circe";
+
+    @media (min-width: 1366px) {
+        font-size: 20px;
+    }
+
+
+    &__item {
+        margin-bottom: 20px;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+
+        @media (min-width: 1366px) {
+            margin-bottom: 30px;
+        }
+    }
+
+    &__social-media-container {
+        margin-top: 15px;
+
+        @media (min-width: 1366px) {
+            margin-top: 25px;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+.social-media {
+    display: flex;
+    align-items: center;
+
+    &__item {
+        margin-right: 35px;
+        cursor: pointer;
+
+        &:last-of-type {
+            margin-right: 0;
+        }
+
+        &:hover {
+            .social-media__icon {
+                fill: rgb(216, 216, 216);
+
+                @media (min-width: 1366px) {
+                    fill: rgb(163, 163, 163);
+                }
+            }
+        }
+
+        @media (min-width: 768px) {
+            height: 30px;
+            width: 30px;
+            margin-right: 20px;
+            fill: rgb(105, 105, 105);
+        }
+    }
+
+
+    &__item-link {
+        display: block;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+    }
+
+
+    &__icon {
+        height: 30px;
+        width: 30px;
+        fill: rgb(173, 173, 173);
+    }
+}

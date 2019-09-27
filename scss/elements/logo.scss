@@ -1,0 +1,8 @@
+.logo {
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+
+    @media (min-width: 768px) {
+        padding: 20px 0;
+    }
+}

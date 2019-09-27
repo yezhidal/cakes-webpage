@@ -1,0 +1,66 @@
+.section {
+    @media (min-width: 1366px) {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__content {
+        padding: 0 20px;
+        font-family: "Circe";
+
+        @media (min-width: 768px) {
+            box-sizing: border-box;
+            padding: 0 45px;
+        }
+        @media (min-width: 1366px) {
+            padding: 0 70px;
+            width: 1366px;
+        }
+    }
+
+    &__anchor {
+        position: relative;
+        top: -40px;
+        @media (min-width: 1366px) {
+            top: 0;
+        }
+    }
+
+    &__title {
+        color: rgb(45, 40, 41);
+        font-weight: bold;
+        font-size: 24px;
+        font-family: "Playfair Display", serif;
+        @media (min-width: 768px) {
+            font-size: 28px;
+        }
+        @media (min-width: 1366px) {
+            font-size: 40px;
+        }
+    }
+
+    &__subtitle {
+        color: rgb(50, 49, 61);
+        font-size: 22px;
+        font-family: "IntroScriptR", sans-serif;
+        @media (min-width: 1366px) {
+            font-size: 35px;
+        }
+    }
+
+    &--highlighted {
+        background-image: linear-gradient(
+            rgb(232, 57, 63),
+            rgb(213, 38, 49)
+        );
+        color: rgb(255, 255, 255);
+
+        & .section__title {
+            color: rgb(255, 255, 255);
+        }
+
+        & .section__subtitle {
+            color: rgb(255, 255, 255);
+        }
+    }
+}
