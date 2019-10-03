@@ -1,5 +1,7 @@
+@import "../util/screen-queries";
+
 .phone {
-    @media (min-width: 768px) {
+    @media #{$tablet} {
         padding: 10px 0;
     }
 

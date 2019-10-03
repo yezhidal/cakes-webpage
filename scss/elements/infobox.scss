@@ -1,18 +1,20 @@
+@import "../util/screen-queries";
+
 .infobox {
-    @media (min-width: 768px) {
+    @media #{$tablet} {
         display: flex;
     }
 
     .infobox__item {
         display: flex;
         margin-bottom: 13px;
-        @media (min-width: 768px) {
+        @media #{$tablet} {
             margin-bottom: 0;
         }
 
         &:last-of-type {
             margin-bottom: 0;
-            @media (min-width: 768px) {
+            @media #{$tablet} {
                 margin-right: 0;
             }
         }

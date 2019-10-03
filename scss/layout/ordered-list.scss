@@ -1,4 +1,5 @@
 @import "../util/fonts";
+@import "../util/screen-queries";
 
 .ordered-list {
     display: table;
@@ -23,7 +24,7 @@
             font-weight: bold;
             font-family: $heading-font;
 
-            @media (min-width: 1366px) {
+            @media #{$desktop} {
                 top: -20px;
                 font-size: 64.25px;
             }

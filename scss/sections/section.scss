@@ -1,5 +1,7 @@
+@import "../util/screen-queries";
+
 .section {
-    @media (min-width: 1366px) {
+    @media #{$desktop} {
         display: flex;
         justify-content: center;
     }
@@ -9,11 +11,11 @@
         padding: 0 20px;
         font-family: $main-font;
 
-        @media (min-width: 768px) {
+        @media #{$tablet} {
             box-sizing: border-box;
             padding: 0 45px;
         }
-        @media (min-width: 1366px) {
+        @media #{$desktop} {
             padding: 0 70px;
             width: 1366px;
         }
@@ -23,7 +25,7 @@
     .section__anchor {
         position: relative;
         top: -40px;
-        @media (min-width: 1366px) {
+        @media #{$desktop} {
             top: 0;
         }
     }
@@ -34,10 +36,10 @@
         font-weight: bold;
         font-size: 24px;
         font-family: $heading-font;
-        @media (min-width: 768px) {
+        @media #{$tablet} {
             font-size: 28px;
         }
-        @media (min-width: 1366px) {
+        @media #{$desktop} {
             font-size: 40px;
         }
     }
@@ -47,7 +49,7 @@
         color: rgb(50, 49, 61);
         font-size: 22px;
         font-family: $decorative-font;
-        @media (min-width: 1366px) {
+        @media #{$desktop} {
             font-size: 35px;
         }
     }

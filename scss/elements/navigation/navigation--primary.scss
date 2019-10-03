@@ -1,4 +1,5 @@
 @import "../../util/fonts";
+@import "../../util/screen-queries";
 
 .navigation--primary {
     .navigation__item {
@@ -20,7 +21,7 @@
             background-color: hsl(0, 0%, 95.7%);
         }
 
-        @media (min-width: 1366px) {
+        @media #{$desktop} {
             display: block;
             width: auto;
             border: none;
@@ -47,10 +48,10 @@
         font-size: 12px;
         font-family: $main-font;
 
-        @media (min-width: 768px) {
+        @media #{$tablet} {
             padding: 0;
         }
-        @media (min-width: 1366px) {
+        @media #{$desktop} {
             padding: 20px 0;
             font-size: 13px;
             line-height: 1em;
@@ -64,10 +65,10 @@
 
 
     .navigation__menu {
-        @media (min-width: 768px) {
+        @media #{$tablet} {
             display: block;
         }
-        @media (min-width: 1366px) {
+        @media #{$desktop} {
             display: flex;
         }
     }

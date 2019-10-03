@@ -1,10 +1,11 @@
 @import "../util/fonts";
+@import "../util/screen-queries";
 
 .logo {
     font-weight: bold;
     font-family: $heading-font;
 
-    @media (min-width: 768px) {
+    @media #{$tablet} {
         padding: 20px 0;
     }
 }

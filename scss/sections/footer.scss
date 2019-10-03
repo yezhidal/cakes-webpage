@@ -1,10 +1,11 @@
 @import "../util/fonts";
+@import "../util/screen-queries";
 
 .footer {
     background-color: rgb(137, 137, 137);
     color: rgb(255, 255, 255);
     
-    @media (min-width: 1366px) {
+    @media #{$desktop} {
         background-color: rgb(232, 232, 232);
         color: rgb(0, 0, 0);
     }
@@ -14,7 +15,7 @@
         padding-top: 45px;
         padding-bottom: 10px;
 
-        @media (min-width: 768px) {
+        @media #{$tablet} {
             display: flex;
             align-items: center;
             justify-content: center;
@@ -23,7 +24,7 @@
             padding-right: 20px;
             padding-bottom: 10px;
         }
-        @media (min-width: 1366px) {
+        @media #{$desktop} {
             justify-content: space-between;
             padding: 40px 70px 20px;
         }
@@ -34,12 +35,12 @@
         margin-bottom: 25px;
         font-size: 28px;
 
-        @media (min-width: 768px) {
+        @media #{$tablet} {
             margin-right: 44px;
             margin-bottom: 0;
             font-size: 18px;
         }
-        @media (min-width: 1366px) {
+        @media #{$desktop} {
             margin: 0;
             font-size: 28px;
         }
@@ -52,10 +53,10 @@
         background-color: rgb(173, 173, 173);
         margin: 30px 0 10px 0;
 
-        @media (min-width: 768px) {
+        @media #{$tablet} {
             margin: 35px 45px 10px;
         }
-        @media (min-width: 1366px) {
+        @media #{$desktop} {
             margin: 50px 0 20px;
         }
     }
@@ -66,11 +67,11 @@
         font-size: 12px;
         font-family: $alternative-font;
 
-        @media (min-width: 768px) {
+        @media #{$tablet} {
             padding: 0;
             margin-right: 30px;
         }
-        @media (min-width: 1366px) {
+        @media #{$desktop} {
             padding: 0;
             margin: 0;
             width: 100%;
@@ -83,25 +84,25 @@
         margin-bottom: 30px;
         font-size: 14px;
 
-        @media (min-width: 768px) {
+        @media #{$tablet} {
             display: none;
         }
     }
 
 
     .footer__social-media-container {
-        @media (min-width: 768px) {
+        @media #{$tablet} {
             margin: 0;
             order: 1;
         }
-        @media (min-width: 1366px) {
+        @media #{$desktop} {
             order: 0;
         }
     }
 
 
     .footer__navigation-container {
-        @media (min-width: 1366px) {
+        @media #{$desktop} {
             flex-grow: initial;
         }
     }

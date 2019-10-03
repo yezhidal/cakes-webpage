@@ -1,4 +1,6 @@
-@media (min-width: 1366px) {
+@import "../../util/screen-queries";
+
+@media #{$desktop} {
     .tiled-list--wobbling .tiled-list__item:hover {
         animation-name: wobble;
         animation-duration: 2300ms;

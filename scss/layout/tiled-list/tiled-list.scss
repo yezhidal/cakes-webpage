@@ -1,9 +1,11 @@
+@import "../../util/screen-queries";
+
 .tiled-list {
     display: flex;
     flex-direction: column;
     width: 100%;
 
-    @media (min-width: 768px) {
+    @media #{$tablet} {
         display: table;
         clear: both;
         content: "";
@@ -24,7 +26,7 @@
             margin-bottom: 0;
         }
 
-        @media (min-width: 768px) {
+        @media #{$tablet} {
             margin-bottom: 20px;
             width: 40%;
             height: 185px;
@@ -57,7 +59,7 @@
             }
         }
 
-        @media (min-width: 1366px) {
+        @media #{$desktop} {
             margin-bottom: 45px;
             height: 300px;
 

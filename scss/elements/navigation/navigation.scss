@@ -1,9 +1,11 @@
+@import "../../util/screen-queries";
+
 .navigation {
     .navigation__item {
         margin-bottom: 17px;
         font-size: 14px;
 
-        @media (min-width: 768px) {
+        @media #{$tablet} {
             margin-bottom: 0;
             margin-right: 40px;
 
@@ -11,7 +13,7 @@
                 margin-right: 0;
             }
         }
-        @media (min-width: 1366px) {
+        @media #{$desktop} {
             margin-right: 48px;
             margin-bottom: 0;
         }
@@ -23,18 +25,18 @@
             opacity: 0.7;
         }
 
-        @media (min-width: 768px) {
+        @media #{$tablet} {
             padding: 20px 0;
             font-size: 12px;
         }
-        @media (min-width: 1366px) {
+        @media #{$desktop} {
             font-size: 15px;
         }
     }
 
 
     .navigation__menu {
-        @media (min-width: 768px) {
+        @media #{$tablet} {
             display: flex;
         }
     }

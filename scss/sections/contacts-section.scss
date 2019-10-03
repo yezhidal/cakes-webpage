@@ -1,9 +1,11 @@
+@import "../util/screen-queries";
+
 .contacts-section {
     .contacts-section__content {
         padding-top: 38px;
         padding-bottom: 50px;
 
-        @media (min-width: 768px) {
+        @media #{$tablet} {
             padding-top: 45px;
             padding-bottom: 78px;
             background-image: url("../../img/contacts.jpg");
@@ -11,7 +13,7 @@
             background-size: 600px;
             background-repeat: no-repeat;
         }
-        @media (min-width: 1366px) {
+        @media #{$desktop} {
             width: 1431px;
             padding-right: 135px;
             padding-top: 75px;
@@ -27,11 +29,11 @@
         margin-bottom: 10px;
         text-align: center;
 
-        @media (min-width: 768px) {
+        @media #{$tablet} {
             margin-bottom: 10px;
             text-align: left;
         }
-        @media (min-width: 1366px) {
+        @media #{$desktop} {
             margin-bottom: 40px;
         }
     }
@@ -40,11 +42,11 @@
     .contacts-section__subtitle {
         margin-bottom: 10px;
 
-        @media (min-width: 768px) {
+        @media #{$tablet} {
             margin-bottom: 20px;
             text-indent: -1px;
         }
-        @media (min-width: 1366px) {
+        @media #{$desktop} {
             margin-bottom: 15px;
             text-indent: -2.5px;
         }

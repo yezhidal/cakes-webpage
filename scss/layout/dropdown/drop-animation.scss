@@ -1,3 +1,5 @@
+@import "../../util/screen-queries";
+
 .dropdown__trigger:focus + .dropdown__content {
     animation-name: drop;
     animation-duration: 350ms;
@@ -13,7 +15,7 @@
     }
 }
 
-@media (min-width: 768px) {
+@media #{$tablet} {
     @keyframes drop {
         from {
             top: -190px;

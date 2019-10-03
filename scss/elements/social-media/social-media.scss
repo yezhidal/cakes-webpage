@@ -1,3 +1,5 @@
+@import "../../util/screen-queries.scss";
+
 .social-media {
     display: flex;
     align-items: center;
@@ -10,7 +12,7 @@
             margin-right: 0;
         }
 
-        @media (min-width: 768px) {
+        @media #{$tablet} {
             height: 30px;
             width: 30px;
             margin-right: 20px;
@@ -37,7 +39,7 @@
     .social-media__item:hover .social-media__icon {
         fill: rgb(216, 216, 216);
         
-        @media (min-width: 1366px) {
+        @media #{$desktop} {
             fill: rgb(163, 163, 163);
         }
         

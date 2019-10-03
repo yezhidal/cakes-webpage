@@ -1,14 +1,15 @@
 @import "../util/fonts";
+@import "../util/screen-queries";
 
 .form {
     .form__description {
         margin-bottom: 10px;
         font-family: $main-font;
 
-        @media (min-width: 768px) {
+        @media #{$tablet} {
             font-size: 14px;
         }
-        @media (min-width: 1366px) {
+        @media #{$desktop} {
             margin-bottom: 50px;
             font-size: 20px;
         }
@@ -23,7 +24,7 @@
         height: 50px;
         border-radius: 3px;
 
-        @media (min-width: 1366px) {
+        @media #{$desktop} {
             padding: 30px 0 0;
             border-bottom: 1px solid rgb(201, 188, 187);
             background-color: transparent;
@@ -38,7 +39,7 @@
         &--textarea {
             height: 120px;
 
-            @media (min-width: 1366px) {
+            @media #{$desktop} {
                 height: calc(1em + 31px);
                 overflow: hidden;
             }
@@ -51,11 +52,11 @@
         text-align: center;
         margin-top: 5px;
 
-        @media (min-width: 768px) {
+        @media #{$tablet} {
             margin-top: 18px;
             text-align: left;
         }
-        @media (min-width: 1366px) {
+        @media #{$desktop} {
             margin-top: 80px;
         }
     }
