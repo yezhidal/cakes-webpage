@@ -13,7 +13,8 @@
         background-color: transparent;
     }
     
-    &__content {
+
+    .header__content {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -33,7 +34,8 @@
         }
     }
 
-    &__logo-container {
+
+    .header__logo-container {
         color: hsl(348, 6%, 17%);
         font-size: 16px;
 
@@ -49,7 +51,8 @@
         }
     }
 
-    &__phone-container {
+
+    .header__phone-container {
         color: hsl(348, 6%, 17%);
         display: none;
         @media (min-width: 768px) {
@@ -58,7 +61,8 @@
         }
     }
 
-    &__dropdown-container {
+
+    .header__dropdown-container {
         @media (min-width: 768px) {
             flex-grow: 2;
         }

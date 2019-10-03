@@ -1,39 +1,39 @@
 .dropdown {
-    &__trigger {
+    .dropdown__trigger {
         width: 20px;
         height: 20px;
         cursor: pointer;
         background-color: rgb(255, 255, 255);
 
-        &:focus + .dropdown__content {
-            display: block;
-        }
-
         @media (min-width: 1366px) {
             display: none;
         }
+
+        &:focus + .dropdown__content {
+            display: block;
+        }
     }
 
-    &__content {
+
+    .dropdown__content {
         display: none;
         width: 100%;
         position: fixed;
         top: 40px;
         left: 0;
 
-        &:hover {
-            display: block;
-        }
-
         @media (min-width: 768px) {
             width: 300px;
             top: 60px;
         }
-
         @media (min-width: 1366px) {
             position: static;
             display: block;
             width: 100%;
+        }
+
+        &:hover {
+            display: block;
         }
     }
 }

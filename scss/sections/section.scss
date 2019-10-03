@@ -4,9 +4,10 @@
         justify-content: center;
     }
 
-    &__content {
+
+    .section__content {
         padding: 0 20px;
-        font-family: "Circe";
+        font-family: $main-font;
 
         @media (min-width: 768px) {
             box-sizing: border-box;
@@ -18,7 +19,8 @@
         }
     }
 
-    &__anchor {
+
+    .section__anchor {
         position: relative;
         top: -40px;
         @media (min-width: 1366px) {
@@ -26,11 +28,12 @@
         }
     }
 
-    &__title {
+
+    .section__title {
         color: rgb(45, 40, 41);
         font-weight: bold;
         font-size: 24px;
-        font-family: "Playfair Display", serif;
+        font-family: $heading-font;
         @media (min-width: 768px) {
             font-size: 28px;
         }
@@ -39,14 +42,16 @@
         }
     }
 
-    &__subtitle {
+
+    .section__subtitle {
         color: rgb(50, 49, 61);
         font-size: 22px;
-        font-family: "IntroScriptR", sans-serif;
+        font-family: $decorative-font;
         @media (min-width: 1366px) {
             font-size: 35px;
         }
     }
+
 
     &--highlighted {
         background-image: linear-gradient(

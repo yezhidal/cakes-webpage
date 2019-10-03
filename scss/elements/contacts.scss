@@ -1,13 +1,15 @@
+@import "../util/fonts";
+
 .contacts {
     font-size: 14px;
-    font-family: "Circe";
+    font-family: $main-font;
 
     @media (min-width: 1366px) {
         font-size: 20px;
     }
 
 
-    &__item {
+    .contacts__item {
         margin-bottom: 20px;
 
         &:last-of-type {
@@ -19,7 +21,8 @@
         }
     }
 
-    &__social-media-container {
+
+    .contacts__social-media-container {
         margin-top: 15px;
 
         @media (min-width: 1366px) {

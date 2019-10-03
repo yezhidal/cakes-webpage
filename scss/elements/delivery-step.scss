@@ -1,6 +1,8 @@
+@import "../util/fonts";
+
 .delivery-step {
-    &__name {
-        font-family: "Circe";
+    .delivery-step__name {
+        font-family: $main-font;
         font-weight: bold;
         margin-bottom: 10px;
         font-size: 15px;
@@ -10,8 +12,9 @@
         }
     }
 
-    &__text {
-        font-family: "Circe";
+
+    .delivery-step__text {
+        font-family: $main-font;
         font-size: 14px;
 
         @media (min-width: 1366px) {

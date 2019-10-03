@@ -2,22 +2,12 @@
     display: flex;
     align-items: center;
 
-    &__item {
+    .social-media__item {
         margin-right: 35px;
         cursor: pointer;
 
         &:last-of-type {
             margin-right: 0;
-        }
-
-        &:hover {
-            .social-media__icon {
-                fill: rgb(216, 216, 216);
-
-                @media (min-width: 1366px) {
-                    fill: rgb(163, 163, 163);
-                }
-            }
         }
 
         @media (min-width: 768px) {
@@ -29,7 +19,7 @@
     }
 
 
-    &__item-link {
+    .social-media__item-link {
         display: block;
         position: absolute;
         width: 30px;
@@ -37,9 +27,19 @@
     }
 
 
-    &__icon {
+    .social-media__icon {
         height: 30px;
         width: 30px;
         fill: rgb(173, 173, 173);
+    }
+
+
+    .social-media__item:hover .social-media__icon {
+        fill: rgb(216, 216, 216);
+        
+        @media (min-width: 1366px) {
+            fill: rgb(163, 163, 163);
+        }
+        
     }
 }

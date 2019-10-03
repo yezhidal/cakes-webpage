@@ -1,5 +1,5 @@
 .delivery-section {
-    &__content {
+    .delivery-section__content {
         padding: 30px 40px 155px;
         background-image: url("../../img/delivery.jpg");
         background-position: bottom -70px center;
@@ -23,7 +23,8 @@
         }
     }
 
-    &__title {
+
+    .delivery-section__title {
         margin-bottom: 36px;
         text-align: center;
 

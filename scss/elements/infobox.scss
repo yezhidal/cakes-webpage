@@ -3,7 +3,7 @@
         display: flex;
     }
 
-    &__item {
+    .infobox__item {
         display: flex;
         margin-bottom: 13px;
         @media (min-width: 768px) {
@@ -19,17 +19,17 @@
     }
 
 
-    &__icon {
+    .infobox__icon {
         height: 55px;
         width: 55px;
         fill: rgb(245, 0, 73);
     }
 
-    &__text {
+    .infobox__text {
         margin-left: 10px;
         align-self: center;
         font-size: 14px;
-        font-family: "Circe";
+        font-family: $main-font;
         line-height: 17px;
         width: 200px;
     }

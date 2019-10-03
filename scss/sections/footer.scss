@@ -1,3 +1,5 @@
+@import "../util/fonts";
+
 .footer {
     background-color: rgb(137, 137, 137);
     color: rgb(255, 255, 255);
@@ -7,7 +9,8 @@
         color: rgb(0, 0, 0);
     }
 
-    &__content {
+
+    .footer__content {
         padding-top: 45px;
         padding-bottom: 10px;
 
@@ -26,7 +29,8 @@
         }
     }
 
-    &__logo-container {
+
+    .footer__logo-container {
         margin-bottom: 25px;
         font-size: 28px;
 
@@ -41,7 +45,8 @@
         }
     }
 
-    &__line {
+
+    .footer__line {
         height: 1px;
         width: 100%;
         background-color: rgb(173, 173, 173);
@@ -55,10 +60,11 @@
         }
     }
 
-    &__copyright {
+
+    .footer__copyright {
         color: rgb(173, 173, 173);
         font-size: 12px;
-        font-family: "Roboto", sans-serif;
+        font-family: $alternative-font;
 
         @media (min-width: 768px) {
             padding: 0;
@@ -72,7 +78,8 @@
         }
     }
 
-    &__phone-container {
+
+    .footer__phone-container {
         margin-bottom: 30px;
         font-size: 14px;
 
@@ -81,7 +88,8 @@
         }
     }
 
-    &__social-media-container {
+
+    .footer__social-media-container {
         @media (min-width: 768px) {
             margin: 0;
             order: 1;
@@ -91,7 +99,8 @@
         }
     }
 
-    &__navigation-container {
+
+    .footer__navigation-container {
         @media (min-width: 1366px) {
             flex-grow: initial;
         }

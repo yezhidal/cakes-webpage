@@ -1,5 +1,5 @@
-.social-media--round-button .social-media {
-    &__item {
+.social-media--round-button {
+    .social-media__item {
         display: flex;
         position: relative;
         justify-content: center;
@@ -11,10 +11,6 @@
 
         &:hover {
             box-shadow: 0 0 5px hsl(347, 93%, 83%);
-
-            .social-media__icon {
-                fill: hsl(342, 100%, 48%);
-            }
         }
 
         &:active {
@@ -23,15 +19,20 @@
     }
 
 
-    &__item-link { 
+    .social-media__item-link { 
         width: 60px;
         height: 60px;
     }
 
 
-    &__icon {
+    .social-media__icon {
         fill: hsl(342, 100%, 48%);
         width: 35px;
         height: 35px;
+    }
+
+
+    .social-media__item:hover .social-media__icon {
+        fill: hsl(342, 100%, 48%);
     }
 }

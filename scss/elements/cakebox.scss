@@ -1,3 +1,5 @@
+@import "../util/fonts";
+
 .cakebox {
     position: relative;
     z-index: 0;
@@ -12,90 +14,87 @@
         padding: 20px 25px;
         box-shadow: 0 0 16px hsl(0, 51%, 90%);
     }
-
     @media (min-width: 1366px) {
         padding: 33px 50px;
         transition: transform 1000ms;
-
-        &__arrow {
-            position: absolute;
-            background: url(../../svg/right-arrow.svg) no-repeat;
-            right: 60px;
-            bottom: 40px;
-            width: 20px;
-            height: 20px;
-
-            &::before {
-                content: "Смотреть";
-                position: relative;
-                right: 105px;
-                color: hsl(345, 3%, 28%);
-                font-size: 20px;
-                font-family: "Circe";
-                opacity: 0;
-                transition: opacity 375ms;
-            }
-        }
     }
 
     &:hover {
-        .cakebox__image {
-            opacity: 0.8;
-        }
-
         @media (min-width: 768px) {
             box-shadow: 0 0 18px hsl(0, 52%, 78%);
         }
-
         @media (min-width: 1366px) {
             transform: scale(1.05);
-
-            .cakebox__arrow::before {
-                opacity: 1;
-            }
         }
     }
 
-    &:active {
-        .cakebox__image {
-            opacity: 0.6;
+
+    .cakebox__arrow {
+        display: none;
+        position: absolute;
+        background: url(../../svg/right-arrow.svg) no-repeat;
+        right: 60px;
+        bottom: 40px;
+        width: 20px;
+        height: 20px;
+
+        &::before {
+            content: "Смотреть";
+            position: relative;
+            right: 105px;
+            color: hsl(345, 3%, 28%);
+            font-family: $main-font;
+            font-size: 20px;
+            opacity: 0;
+            transition: opacity 375ms;
+        }
+
+        @media (min-width: 1366px) {
+            display: block;
         }
     }
 
-    &__type {
+    &:hover .cakebox__arrow::before {
+        @media (min-width: 1366px) {
+            opacity: 1;
+        }
+    }
+
+
+    .cakebox__type {
         overflow: hidden;
         color: hsl(345, 3%, 28%);
         text-overflow: ellipsis;
         white-space: nowrap;
+        font-family: $main-font;
         font-size: 14px;
-        font-family: "Circe";
 
         @media (min-width: 768px) {
             margin-bottom: 7px;
             font-size: 14.32px;
         }
-
         @media (min-width: 1366px) {
             margin-bottom: 7px;
             font-size: 23px;
         }
     }
 
-    &__amount {
+
+    .cakebox__amount {
         color: hsl(345, 2%, 42%);
+        font-family: $main-font;
         font-size: 10px;
-        font-family: "Circe";
 
         @media (min-width: 768px) {
             font-size: 11.93px;
         }
-
         @media (min-width: 1366px) {
             font-size: 18px;
         }
     }
 
-    &__image {
+
+    .cakebox__image {
         position: absolute;
         top: -50px;
         right: 0;
@@ -108,5 +107,12 @@
             top: 0;
             height: 100%;
         }
+    }
+
+    &:hover .cakebox__image {
+        opacity: 0.8;
+    }
+    &:active .cakebox__image{
+        opacity: 0.6;
     }
 }

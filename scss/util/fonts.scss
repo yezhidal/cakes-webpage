@@ -1,5 +1,3 @@
-$font-path: "../../fonts";
-
 @font-face {
     font-family: "IntroScriptR";
     font-display: auto;
@@ -15,6 +13,6 @@ $font-path: "../../fonts";
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap&subset=cyrillic');
 
 $decorative-font: "IntroScriptR", cursive;
-$common-font: "Circe", sans-serif;
+$main-font: "Circe", sans-serif;
 $alternative-font: "Roboto", sans-serif;
 $heading-font: "Playfair Display", serif;

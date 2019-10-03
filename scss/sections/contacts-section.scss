@@ -1,5 +1,5 @@
 .contacts-section {
-    &__content {
+    .contacts-section__content {
         padding-top: 38px;
         padding-bottom: 50px;
 
@@ -21,8 +21,9 @@
             background-size: 950px;
         }
     }
-    
-    &__title {
+
+
+    .contacts-section__title {
         margin-bottom: 10px;
         text-align: center;
 
@@ -34,8 +35,9 @@
             margin-bottom: 40px;
         }
     }
-    
-    &__subtitle {
+
+
+    .contacts-section__subtitle {
         margin-bottom: 10px;
 
         @media (min-width: 768px) {

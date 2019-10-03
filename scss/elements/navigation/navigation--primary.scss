@@ -1,5 +1,7 @@
-.navigation--primary .navigation {
-    &__item {
+@import "../../util/fonts";
+
+.navigation--primary {
+    .navigation__item {
         display: flex;
         margin-bottom: 0;
         width: 100%;
@@ -36,19 +38,18 @@
     }
 
 
-    &__link {
+    .navigation__link {
         width: 100%;
         text-align: center;
         line-height: 40px;
         color: hsl(0, 0%, 22%);
         text-transform: uppercase;
         font-size: 12px;
-        font-family: "Circe";
+        font-family: $main-font;
 
         @media (min-width: 768px) {
             padding: 0;
         }
-
         @media (min-width: 1366px) {
             padding: 20px 0;
             font-size: 13px;
@@ -62,11 +63,10 @@
     }
 
 
-    &__menu {
+    .navigation__menu {
         @media (min-width: 768px) {
             display: block;
         }
-
         @media (min-width: 1366px) {
             display: flex;
         }

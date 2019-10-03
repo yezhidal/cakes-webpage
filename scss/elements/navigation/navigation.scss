@@ -1,5 +1,5 @@
 .navigation {
-    &__item {
+    .navigation__item {
         margin-bottom: 17px;
         font-size: 14px;
 
@@ -11,7 +11,6 @@
                 margin-right: 0;
             }
         }
-
         @media (min-width: 1366px) {
             margin-right: 48px;
             margin-bottom: 0;
@@ -19,7 +18,7 @@
     }
 
 
-    &__link {
+    .navigation__link {
         &:hover {
             opacity: 0.7;
         }
@@ -28,14 +27,13 @@
             padding: 20px 0;
             font-size: 12px;
         }
-
         @media (min-width: 1366px) {
             font-size: 15px;
         }
     }
 
 
-    &__menu {
+    .navigation__menu {
         @media (min-width: 768px) {
             display: flex;
         }

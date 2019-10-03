@@ -1,3 +1,5 @@
+@import '../util/fonts';
+
 .button {
     border-radius: 100vw;
     max-width: 100%;
@@ -11,19 +13,16 @@
     }
 
     &:active {
-        opacity: 0.9;
+        background-color: hsl(342, 99%, 46%);
         box-shadow: 0 5px 5px hsl(347, 93%, 72%);
     }
 
-    &__text {
-        font-family: "Circe";
+
+    .button__text {
+        font-family: $main-font;
         font-size: 13px;
         vertical-align: -0.15em;
         text-transform: uppercase;
         word-wrap: break-word;
-        /* Button text overflow alternative behavior:
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap; */
     }
 }

@@ -1,5 +1,5 @@
 .main-section {
-    &__content {
+    .main-section__content {
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -44,7 +44,8 @@
         }
     }
 
-    &__title {
+
+    .main-section__title {
         margin-bottom: 20px;
         text-align: center;
         letter-spacing: 4px;
@@ -64,7 +65,8 @@
         }
     }
 
-    &__subtitle {
+
+    .main-section__subtitle {
         margin-bottom: 22px;
         font-size: 22px;
 
@@ -78,7 +80,8 @@
         }
     }
 
-    &__infobox-container {
+
+    .main-section__infobox-container {
         margin-bottom: 40px;
 
         @media (min-width: 768px) {
@@ -87,7 +90,8 @@
         }
     }
 
-    &__button-container {
+
+    .main-section__button-container {
         max-width: 100%;
 
         @media (min-width: 768px) {
@@ -99,7 +103,8 @@
         }
     }
 
-    &__anchor {
+
+    .main-section__anchor {
         @media (min-width: 768px) {
             top: -60px;
         }
