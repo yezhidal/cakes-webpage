@@ -1,38 +1,38 @@
-@import "../util/screen-queries";
+@import "../util/breakpoints";
 
 .infobox {
     @media #{$tablet} {
         display: flex;
     }
+}
 
-    .infobox__item {
-        display: flex;
-        margin-bottom: 13px;
-        @media #{$tablet} {
-            margin-bottom: 0;
-        }
 
-        &:last-of-type {
-            margin-bottom: 0;
-            @media #{$tablet} {
-                margin-right: 0;
-            }
-        }
+.infobox__item {
+    display: flex;
+    margin-bottom: 13px;
+
+    &:last-of-type {
+        margin-bottom: 0;
     }
 
-
-    .infobox__icon {
-        height: 55px;
-        width: 55px;
-        fill: rgb(245, 0, 73);
+    @media #{$tablet} {
+        margin-bottom: 0;
     }
+}
 
-    .infobox__text {
-        margin-left: 10px;
-        align-self: center;
-        font-size: 14px;
-        font-family: $main-font;
-        line-height: 17px;
-        width: 200px;
-    }
+
+.infobox__icon {
+    height: 55px;
+    width: 55px;
+    fill: rgb(245, 0, 73);
+}
+
+
+.infobox__text {
+    margin-left: 10px;
+    align-self: center;
+    font-size: 14px;
+    font-family: $main-font;
+    line-height: 17px;
+    width: 200px;
 }

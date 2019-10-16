@@ -1,4 +1,4 @@
-@import "../../util/screen-queries";
+@import "../../util/breakpoints";
 
 @media #{$desktop} {
     .tiled-list--wobbling .tiled-list__item:hover {

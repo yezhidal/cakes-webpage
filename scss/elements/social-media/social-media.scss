@@ -1,47 +1,46 @@
-@import "../../util/screen-queries.scss";
+@import "../../util/breakpoints.scss";
 
 .social-media {
     display: flex;
     align-items: center;
+}
 
-    .social-media__item {
-        margin-right: 35px;
-        cursor: pointer;
+.social-media__item {
+    margin-right: 35px;
+    cursor: pointer;
 
-        &:last-of-type {
-            margin-right: 0;
-        }
-
-        @media #{$tablet} {
-            height: 30px;
-            width: 30px;
-            margin-right: 20px;
-            fill: rgb(105, 105, 105);
-        }
+    &:last-of-type {
+        margin-right: 0;
     }
 
-
-    .social-media__item-link {
-        display: block;
-        position: absolute;
-        width: 30px;
-        height: 30px;
-    }
-
-
-    .social-media__icon {
+    @media #{$tablet} {
         height: 30px;
         width: 30px;
-        fill: rgb(173, 173, 173);
+        margin-right: 20px;
+        fill: rgb(105, 105, 105);
     }
+}
 
 
-    .social-media__item:hover .social-media__icon {
-        fill: rgb(216, 216, 216);
-        
-        @media #{$desktop} {
-            fill: rgb(163, 163, 163);
-        }
-        
+.social-media__item-link {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+
+
+.social-media__icon {
+    height: 30px;
+    width: 30px;
+    fill: rgb(173, 173, 173);
+}
+
+
+.social-media__item:hover .social-media__icon {
+    fill: rgb(216, 216, 216);
+
+    @media #{$desktop} {
+        fill: rgb(163, 163, 163);
     }
 }

@@ -1,4 +1,4 @@
-@import "../../util/screen-queries";
+@import "../../util/breakpoints";
 
 .dropdown__trigger:focus + .dropdown__content {
     animation-name: drop;

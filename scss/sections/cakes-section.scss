@@ -1,31 +1,30 @@
-@import "../util/screen-queries";
+@import "../util/breakpoints";
 
-.cakes-section {
-    .cakes-section__content {
-        padding-top: 30px;
-        padding-bottom: 43px;
+.cakes-section__content {
+    padding-top: 30px;
+    padding-bottom: 43px;
 
-        @media #{$tablet} {
-            padding-left: 20px;
-            padding-right: 20px;
-            padding-bottom: 55px;
-        }
-        @media #{$desktop} {
-            padding: 0 70px 90px;
-        }
+    @media #{$tablet} {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 55px;
     }
-    
-    .cakes-section__title {
-        margin-bottom: 35px;
-        text-align: left;
+    @media #{$desktop} {
+        padding: 0 70px 90px;
+    }
+}
 
-        @media #{$tablet} {
-            margin-bottom: 40px;
-            text-align: center;
-        }
-        @media #{$desktop} {
-            margin-bottom: 70px;
-            text-align: left;
-        }
+
+.cakes-section__title {
+    margin-bottom: 35px;
+    text-align: left;
+
+    @media #{$tablet} {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    @media #{$desktop} {
+        margin-bottom: 70px;
+        text-align: left;
     }
 }

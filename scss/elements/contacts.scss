@@ -1,5 +1,5 @@
-@import "../util/fonts";
-@import "../util/screen-queries";
+@import "../util/typography";
+@import "../util/breakpoints";
 
 .contacts {
     font-size: 14px;
@@ -8,26 +8,26 @@
     @media #{$desktop} {
         font-size: 20px;
     }
+}
 
 
-    .contacts__item {
-        margin-bottom: 20px;
+.contacts__item {
+    margin-bottom: 20px;
 
-        &:last-of-type {
-            margin-bottom: 0;
-        }
-
-        @media #{$desktop} {
-            margin-bottom: 30px;
-        }
+    &:last-of-type {
+        margin-bottom: 0;
     }
 
+    @media #{$desktop} {
+        margin-bottom: 30px;
+    }
+}
 
-    .contacts__social-media-container {
-        margin-top: 15px;
 
-        @media #{$desktop} {
-            margin-top: 25px;
-        }
+.contacts__social-media-container {
+    margin-top: 15px;
+
+    @media #{$desktop} {
+        margin-top: 25px;
     }
 }

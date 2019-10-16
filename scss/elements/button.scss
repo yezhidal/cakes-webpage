@@ -1,4 +1,4 @@
-@import '../util/fonts';
+@import "../util/typography";
 
 .button {
     border-radius: 100vw;
@@ -16,13 +16,13 @@
         background-color: hsl(342, 99%, 46%);
         box-shadow: 0 5px 5px hsl(347, 93%, 72%);
     }
+}
 
 
-    .button__text {
-        font-family: $main-font;
-        font-size: 13px;
-        vertical-align: -0.15em;
-        text-transform: uppercase;
-        word-wrap: break-word;
-    }
+.button__text {
+    font-family: $main-font;
+    font-size: 13px;
+    vertical-align: -0.15em;
+    text-transform: uppercase;
+    word-wrap: break-word;
 }

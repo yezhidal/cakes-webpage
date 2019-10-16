@@ -1,46 +1,46 @@
-@import "../util/screen-queries";
+@import "../util/breakpoints";
 
 .grid {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+}
 
 
-    .grid__item {
-        &--small-12 {
-            width: 100%;
-            margin-bottom: 30px;
+.grid__item {
+    &--small-12 {
+        width: 100%;
+        margin-bottom: 30px;
+
+        &:last-of-type {
+            margin: 0;
+        }
+
+        @media #{$tablet} {
+            margin: 0;
+        }
+    }
+
+    &--medium-5 {
+        @media #{$tablet} {
+            width: calc((100% / 12 * 5) - 30px);
+        }
+    }
+
+    &--medium-7 {
+        @media #{$tablet} {
+            width: calc((100% / 12 * 7) - 30px);
+            margin-right: 30px;
+        }
+    }
+
+    &--large-6 {
+        @media #{$desktop} {
+            width: calc(50% - 40px);
+            margin-right: 40px;
 
             &:last-of-type {
                 margin: 0;
-            }
-
-            @media #{$tablet} {
-                margin: 0;
-            }
-        }
-
-        &--medium-5 {
-            @media #{$tablet} {
-                width: calc((100% / 12 * 5) - 30px);
-            }
-        }
-
-        &--medium-7 {
-            @media #{$tablet} {
-                width: calc((100% / 12 * 7) - 30px);
-                margin-right: 30px;
-            }
-        }
-
-        &--large-6 {
-            @media #{$desktop} {
-                width: calc(50% - 40px);
-                margin-right: 40px;
-
-                &:last-of-type {
-                    margin: 0;
-                }
             }
         }
     }

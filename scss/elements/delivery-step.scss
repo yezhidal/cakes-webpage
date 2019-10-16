@@ -1,25 +1,23 @@
-@import "../util/fonts";
-@import "../util/screen-queries";
+@import "../util/typography";
+@import "../util/breakpoints";
 
-.delivery-step {
-    .delivery-step__name {
-        font-family: $main-font;
-        font-weight: bold;
-        margin-bottom: 10px;
-        font-size: 15px;
+.delivery-step__name {
+    font-family: $main-font;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 15px;
 
-        @media #{$desktop} {
-            font-size: 21px;
-        }
+    @media #{$desktop} {
+        font-size: 21px;
     }
+}
 
 
-    .delivery-step__text {
-        font-family: $main-font;
-        font-size: 14px;
+.delivery-step__text {
+    font-family: $main-font;
+    font-size: 14px;
 
-        @media #{$desktop} {
-            font-size: 20px;
-        }
+    @media #{$desktop} {
+        font-size: 20px;
     }
 }

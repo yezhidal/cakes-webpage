@@ -1,11 +1,11 @@
-@import "../util/screen-queries";
+@import "../util/breakpoints";
 
 .mail {
-    @media #{$tablet} {
-        padding: 10px 0;
-    }
-
     &:hover {
         text-decoration: underline;
+    }
+
+    @media #{$tablet} {
+        padding: 10px 0;
     }
 }
